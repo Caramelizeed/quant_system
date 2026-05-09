@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+
+# Data
+data/raw/
+data/interim/
+data/processed/
+data/feature_store/
+
+# Models
+checkpoints/
+models/
+*.pkl
+*.joblib
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Testing
+.coverage
+.pytest_cache/
+
+# Large files
+*.parquet
+*.feather
+*.duckdb
