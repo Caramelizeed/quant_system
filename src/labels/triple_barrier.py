@@ -47,7 +47,7 @@ logger.add(
 
 HOLDING_PERIOD = 21
 
-TAKE_PROFIT_MULTIPLIER = 2.0
+TAKE_PROFIT_MULTIPLIER = 1.0
 
 STOP_LOSS_MULTIPLIER = 1.0
 
@@ -125,9 +125,14 @@ def generate_labels(asset_dir: Path):
                 df.loc[i, "adj_close"]
             )
 
-            current_volatility = (
+            annualized_volatility = (
                 df.loc[i, "volatility_21d"]
             )
+
+            current_volatility = (
+                annualized_volatility
+                * np.sqrt(HOLDING_PERIOD / 252)
+)
 
             # ---------------------------------------------
             # SKIP INVALID VOLATILITY
