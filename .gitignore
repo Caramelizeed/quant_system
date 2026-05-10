@@ -23,7 +23,6 @@ data/feature_store/
 
 # Models
 checkpoints/
-models/
 *.pkl
 *.joblib
 
