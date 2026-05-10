@@ -5,7 +5,7 @@ import yaml
 from loguru import logger
 
 # =========================================================
-# PATH CONFIGURATION
+# PROJECT PATHS
 # =========================================================
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
@@ -14,7 +14,7 @@ UNIVERSE_FILE = PROJECT_ROOT / "config/universe/all_tickers.yaml"
 RAW_DATA_DIR = PROJECT_ROOT / "data/raw/yfinance"
 LOG_DIR = PROJECT_ROOT / "logs"
 
-# Create required directories
+# Create directories
 RAW_DATA_DIR.mkdir(parents=True, exist_ok=True)
 LOG_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -57,10 +57,6 @@ REQUIRED_COLUMNS = [
 
 def download_ticker(canonical_symbol: str, metadata: dict):
 
-    # -----------------------------------------------------
-    # GET PROVIDER SYMBOL
-    # -----------------------------------------------------
-
     provider_symbol = metadata.get("yahoo_ticker")
 
     if provider_symbol is None:
@@ -69,7 +65,7 @@ def download_ticker(canonical_symbol: str, metadata: dict):
             f"{canonical_symbol}: missing yahoo_ticker"
         )
 
-        return
+        return False
 
     logger.info(
         f"Downloading {canonical_symbol} ({provider_symbol})"
@@ -77,9 +73,9 @@ def download_ticker(canonical_symbol: str, metadata: dict):
 
     try:
 
-        # -------------------------------------------------
+        # =================================================
         # DOWNLOAD DATA
-        # -------------------------------------------------
+        # =================================================
 
         df = yf.download(
             tickers=provider_symbol,
@@ -87,12 +83,12 @@ def download_ticker(canonical_symbol: str, metadata: dict):
             interval="1d",
             auto_adjust=False,
             progress=False,
-            threads=True
+            threads=False
         )
 
-        # -------------------------------------------------
-        # VALIDATE EMPTY DATAFRAME
-        # -------------------------------------------------
+        # =================================================
+        # EMPTY CHECK
+        # =================================================
 
         if df.empty:
 
@@ -100,36 +96,56 @@ def download_ticker(canonical_symbol: str, metadata: dict):
                 f"{canonical_symbol}: empty dataframe"
             )
 
-            return
+            return False
 
-        # -------------------------------------------------
-        # NORMALIZE COLUMN NAMES
-        # -------------------------------------------------
+        # =================================================
+        # HANDLE MULTIINDEX COLUMNS
+        # =================================================
 
-        df.columns = [
-            col.lower().replace(" ", "_")
-            for col in df.columns
-        ]
+        if isinstance(df.columns, pd.MultiIndex):
 
-        # -------------------------------------------------
+            df.columns = [
+                col[0]
+                for col in df.columns
+            ]
+
+        # =================================================
         # RESET INDEX
-        # -------------------------------------------------
+        # =================================================
 
         df.reset_index(inplace=True)
 
-        # -------------------------------------------------
-        # STANDARDIZE TIMESTAMP COLUMN
-        # -------------------------------------------------
+        # =================================================
+        # NORMALIZE COLUMN NAMES
+        # =================================================
+
+        df.columns = [
+            str(col).lower().replace(" ", "_")
+            for col in df.columns
+        ]
+
+        # =================================================
+        # RENAME DATE COLUMN
+        # =================================================
 
         if "date" in df.columns:
+
             df.rename(
                 columns={"date": "timestamp"},
                 inplace=True
             )
 
-        # -------------------------------------------------
+        else:
+
+            logger.error(
+                f"{canonical_symbol}: missing date column"
+            )
+
+            return False
+
+        # =================================================
         # VALIDATE REQUIRED COLUMNS
-        # -------------------------------------------------
+        # =================================================
 
         missing_columns = [
             col for col in REQUIRED_COLUMNS
@@ -143,11 +159,19 @@ def download_ticker(canonical_symbol: str, metadata: dict):
                 f"{missing_columns}"
             )
 
-            return
+            return False
 
-        # -------------------------------------------------
+        # =================================================
+        # CONVERT TIMESTAMP
+        # =================================================
+
+        df["timestamp"] = pd.to_datetime(
+            df["timestamp"]
+        )
+
+        # =================================================
         # REMOVE DUPLICATES
-        # -------------------------------------------------
+        # =================================================
 
         before = len(df)
 
@@ -167,29 +191,30 @@ def download_ticker(canonical_symbol: str, metadata: dict):
                 f"{duplicate_count} duplicate rows"
             )
 
-        # -------------------------------------------------
-        # SORT BY TIME
-        # -------------------------------------------------
+        # =================================================
+        # SORT CHRONOLOGICALLY
+        # =================================================
 
         df.sort_values(
             by="timestamp",
             inplace=True
         )
 
-        # -------------------------------------------------
+        # =================================================
         # ADD METADATA
-        # -------------------------------------------------
+        # =================================================
 
         df["canonical_symbol"] = canonical_symbol
         df["provider_symbol"] = provider_symbol
         df["asset_type"] = metadata.get("asset_type")
         df["country"] = metadata.get("country")
         df["sector"] = metadata.get("sector")
+        df["category"] = metadata.get("category")
         df["source"] = "yfinance"
 
-        # -------------------------------------------------
-        # OUTPUT DIRECTORY
-        # -------------------------------------------------
+        # =================================================
+        # CREATE OUTPUT DIRECTORY
+        # =================================================
 
         output_dir = RAW_DATA_DIR / canonical_symbol
 
@@ -200,9 +225,9 @@ def download_ticker(canonical_symbol: str, metadata: dict):
 
         output_path = output_dir / "daily.parquet"
 
-        # -------------------------------------------------
+        # =================================================
         # SAVE PARQUET
-        # -------------------------------------------------
+        # =================================================
 
         df.to_parquet(
             output_path,
@@ -214,11 +239,15 @@ def download_ticker(canonical_symbol: str, metadata: dict):
             f"{len(df)} rows"
         )
 
+        return True
+
     except Exception as e:
 
         logger.exception(
             f"{canonical_symbol}: FAILED -> {str(e)}"
         )
+
+        return False
 
 # =========================================================
 # MAIN EXECUTION LOOP
@@ -229,16 +258,16 @@ failed_downloads = 0
 
 for canonical_symbol, metadata in universe.items():
 
-    try:
+    success = download_ticker(
+        canonical_symbol,
+        metadata
+    )
 
-        download_ticker(
-            canonical_symbol,
-            metadata
-        )
+    if success:
 
         successful_downloads += 1
 
-    except Exception:
+    else:
 
         failed_downloads += 1
 
@@ -246,8 +275,8 @@ for canonical_symbol, metadata in universe.items():
 # FINAL SUMMARY
 # =========================================================
 
-logger.info("======================================")
+logger.info("====================================")
 logger.info("DOWNLOAD PIPELINE COMPLETE")
-logger.info(f"Successful: {successful_downloads}")
-logger.info(f"Failed: {failed_downloads}")
-logger.info("======================================")
+logger.info(f"Successful Downloads: {successful_downloads}")
+logger.info(f"Failed Downloads: {failed_downloads}")
+logger.info("====================================")
