@@ -1,0 +1,4816 @@
+# Master Universe Registry — 600 tickers
+# Generated: 2026-05-10
+# Fields: yahoo_ticker, canonical_name, sector, country, asset_type, section, category
+# IMPORTANT: Use yahoo_ticker for yfinance downloads (auto_adjust=False)
+# Indian equities appended with .NS; special cases noted under verify_yahoo
+
+AA:
+  asset_type: Equity
+  canonical_name: AA
+  category: Materials
+  country: US
+  section: 1.5
+  sector: Materials
+  yahoo_ticker: AA
+AAL:
+  asset_type: Equity
+  canonical_name: AAL
+  category: Consumer Discretionary
+  country: US
+  section: 1.5
+  sector: Consumer Discretionary
+  yahoo_ticker: AAL
+AAPL:
+  asset_type: Equity
+  canonical_name: AAPL
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: AAPL
+AAVAS:
+  asset_type: Equity
+  canonical_name: AAVAS
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: AAVAS.NS
+ABBOTINDIA:
+  asset_type: Equity
+  canonical_name: ABBOTINDIA
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Healthcare
+  yahoo_ticker: ABBOTINDIA.NS
+ABBV:
+  asset_type: Equity
+  canonical_name: ABBV
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: ABBV
+ABCAPITAL:
+  asset_type: Equity
+  canonical_name: ABCAPITAL
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: ABCAPITAL.NS
+ABNB:
+  asset_type: Equity
+  canonical_name: ABNB
+  category: Consumer Discretionary
+  country: US
+  section: 1.5
+  sector: Consumer Discretionary
+  yahoo_ticker: ABNB
+ABT:
+  asset_type: Equity
+  canonical_name: ABT
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: ABT
+ADANIENT:
+  asset_type: Equity
+  canonical_name: ADANIENT
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Industrials
+  yahoo_ticker: ADANIENT.NS
+ADANIGREEN:
+  asset_type: Equity
+  canonical_name: ADANIGREEN
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Utilities
+  yahoo_ticker: ADANIGREEN.NS
+ADANIPORTS:
+  asset_type: Equity
+  canonical_name: ADANIPORTS
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Industrials
+  yahoo_ticker: ADANIPORTS.NS
+ADBE:
+  asset_type: Equity
+  canonical_name: ADBE
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: ADBE
+AEP:
+  asset_type: Equity
+  canonical_name: AEP
+  category: Utilities
+  country: US
+  section: 1.5
+  sector: Utilities
+  yahoo_ticker: AEP
+AES:
+  asset_type: Equity
+  canonical_name: AES
+  category: Utilities
+  country: US
+  section: 1.5
+  sector: Utilities
+  yahoo_ticker: AES
+AGG:
+  asset_type: Bond/Rate
+  canonical_name: AGG
+  category: Macro - Bonds
+  country: US
+  section: 1.8
+  sector: Macro - Bonds
+  yahoo_ticker: AGG
+AIAENG:
+  asset_type: Equity
+  canonical_name: AIAENG
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Industrials
+  yahoo_ticker: AIAENG.NS
+AIQ:
+  asset_type: ETF
+  canonical_name: AIQ
+  category: ETFs - Thematic
+  country: US
+  section: 1.7
+  sector: ETFs - Thematic
+  yahoo_ticker: AIQ
+ALB:
+  asset_type: Equity
+  canonical_name: ALB
+  category: Materials
+  country: US
+  section: 1.5
+  sector: Materials
+  yahoo_ticker: ALB
+ALGN:
+  asset_type: Equity
+  canonical_name: ALGN
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: ALGN
+ALKEM:
+  asset_type: Equity
+  canonical_name: ALKEM
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Healthcare
+  yahoo_ticker: ALKEM.NS
+ALLY:
+  asset_type: Equity
+  canonical_name: ALLY
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: ALLY
+AMAT:
+  asset_type: Equity
+  canonical_name: AMAT
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: AMAT
+AMD:
+  asset_type: Equity
+  canonical_name: AMD
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: AMD
+AME:
+  asset_type: Equity
+  canonical_name: AME
+  category: Industrials
+  country: US
+  section: 1.5
+  sector: Industrials
+  yahoo_ticker: AME
+AMGN:
+  asset_type: Equity
+  canonical_name: AMGN
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: AMGN
+AMT:
+  asset_type: Equity
+  canonical_name: AMT
+  category: Real Estate
+  country: US
+  section: 1.5
+  sector: Real Estate
+  yahoo_ticker: AMT
+AMZN:
+  asset_type: Equity
+  canonical_name: AMZN
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Consumer Discretionary
+  yahoo_ticker: AMZN
+ANET:
+  asset_type: Equity
+  canonical_name: ANET
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: ANET
+APA:
+  asset_type: Equity
+  canonical_name: APA
+  category: US Energy
+  country: US
+  section: 1.4
+  sector: Energy
+  yahoo_ticker: APA
+APD:
+  asset_type: Equity
+  canonical_name: APD
+  category: Materials
+  country: US
+  section: 1.5
+  sector: Materials
+  yahoo_ticker: APD
+APOLLOHOSP:
+  asset_type: Equity
+  canonical_name: APOLLOHOSP
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Healthcare
+  yahoo_ticker: APOLLOHOSP.NS
+APOLLOTYRE:
+  asset_type: Equity
+  canonical_name: APOLLOTYRE
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Consumer Discretionary
+  yahoo_ticker: APOLLOTYRE.NS
+APP:
+  asset_type: Equity
+  canonical_name: APP
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: APP
+APTUS:
+  asset_type: Equity
+  canonical_name: APTUS
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: APTUS.NS
+AR:
+  asset_type: Equity
+  canonical_name: AR
+  category: US Energy
+  country: US
+  section: 1.4
+  sector: Energy
+  yahoo_ticker: AR
+ARE:
+  asset_type: Equity
+  canonical_name: ARE
+  category: Real Estate
+  country: US
+  section: 1.5
+  sector: Real Estate
+  yahoo_ticker: ARE
+ARKF:
+  asset_type: ETF
+  canonical_name: ARKF
+  category: ETFs - Thematic
+  country: US
+  section: 1.7
+  sector: ETFs - Thematic
+  yahoo_ticker: ARKF
+ARKG:
+  asset_type: ETF
+  canonical_name: ARKG
+  category: ETFs - Thematic
+  country: US
+  section: 1.7
+  sector: ETFs - Thematic
+  yahoo_ticker: ARKG
+ARKK:
+  asset_type: ETF
+  canonical_name: ARKK
+  category: ETFs - Thematic
+  country: US
+  section: 1.7
+  sector: ETFs - Thematic
+  yahoo_ticker: ARKK
+ARM:
+  asset_type: Equity
+  canonical_name: ARM
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: ARM
+ASIANPAINT:
+  asset_type: Equity
+  canonical_name: ASIANPAINT
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Materials
+  yahoo_ticker: ASIANPAINT.NS
+ASML:
+  asset_type: Equity
+  canonical_name: ASML
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: ASML
+ATO:
+  asset_type: Equity
+  canonical_name: ATO
+  category: Utilities
+  country: US
+  section: 1.5
+  sector: Utilities
+  yahoo_ticker: ATO
+ATUL:
+  asset_type: Equity
+  canonical_name: ATUL
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Materials
+  yahoo_ticker: ATUL.NS
+AUROPHARMA:
+  asset_type: Equity
+  canonical_name: AUROPHARMA
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Healthcare
+  yahoo_ticker: AUROPHARMA.NS
+AVB:
+  asset_type: Equity
+  canonical_name: AVB
+  category: Real Estate
+  country: US
+  section: 1.5
+  sector: Real Estate
+  yahoo_ticker: AVB
+AVGO:
+  asset_type: Equity
+  canonical_name: AVGO
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: AVGO
+AWK:
+  asset_type: Equity
+  canonical_name: AWK
+  category: Utilities
+  country: US
+  section: 1.5
+  sector: Utilities
+  yahoo_ticker: AWK
+AXISBANK:
+  asset_type: Equity
+  canonical_name: AXISBANK
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: AXISBANK.NS
+AXON:
+  asset_type: Equity
+  canonical_name: AXON
+  category: Industrials
+  country: US
+  section: 1.5
+  sector: Industrials
+  yahoo_ticker: AXON
+AXP:
+  asset_type: Equity
+  canonical_name: AXP
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: AXP
+BA:
+  asset_type: Equity
+  canonical_name: BA
+  category: Industrials
+  country: US
+  section: 1.5
+  sector: Industrials
+  yahoo_ticker: BA
+BAC:
+  asset_type: Equity
+  canonical_name: BAC
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: BAC
+BAJAJ-AUTO:
+  asset_type: Equity
+  canonical_name: BAJAJ-AUTO
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Consumer Discretionary
+  yahoo_ticker: BAJAJ-AUTO.NS
+BAJAJFINSV:
+  asset_type: Equity
+  canonical_name: BAJAJFINSV
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: BAJAJFINSV.NS
+BAJFINANCE:
+  asset_type: Equity
+  canonical_name: BAJFINANCE
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: BAJFINANCE.NS
+BALKRISIND:
+  asset_type: Equity
+  canonical_name: BALKRISIND
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Consumer Discretionary
+  yahoo_ticker: BALKRISIND.NS
+BALL:
+  asset_type: Equity
+  canonical_name: BALL
+  category: Materials
+  country: US
+  section: 1.5
+  sector: Materials
+  yahoo_ticker: BALL
+BANDHANBNK:
+  asset_type: Equity
+  canonical_name: BANDHANBNK
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: BANDHANBNK.NS
+BATAINDIA:
+  asset_type: Equity
+  canonical_name: BATAINDIA
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Consumer Discretionary
+  yahoo_ticker: BATAINDIA.NS
+BDX:
+  asset_type: Equity
+  canonical_name: BDX
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: BDX
+BEL:
+  asset_type: Equity
+  canonical_name: BEL
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Industrials
+  yahoo_ticker: BEL.NS
+BERGEPAINT:
+  asset_type: Equity
+  canonical_name: BERGEPAINT
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Materials
+  yahoo_ticker: BERGEPAINT.NS
+BHARATFORG:
+  asset_type: Equity
+  canonical_name: BHARATFORG
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Industrials
+  yahoo_ticker: BHARATFORG.NS
+BHARTIARTL:
+  asset_type: Equity
+  canonical_name: BHARTIARTL
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Communication Services
+  yahoo_ticker: BHARTIARTL.NS
+BHEL:
+  asset_type: Equity
+  canonical_name: BHEL
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Industrials
+  yahoo_ticker: BHEL.NS
+BILL:
+  asset_type: Equity
+  canonical_name: BILL
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: BILL
+BIRLACORPN:
+  asset_type: Equity
+  canonical_name: BIRLACORPN
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Materials
+  yahoo_ticker: BIRLACORPN.NS
+BK:
+  asset_type: Equity
+  canonical_name: BK
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: BK
+BKLN:
+  asset_type: Bond/Rate
+  canonical_name: BKLN
+  category: Macro - Bonds
+  country: US
+  section: 1.8
+  sector: Macro - Bonds
+  yahoo_ticker: BKLN
+BKNG:
+  asset_type: Equity
+  canonical_name: BKNG
+  category: Consumer Discretionary
+  country: US
+  section: 1.5
+  sector: Consumer Discretionary
+  yahoo_ticker: BKNG
+BKR:
+  asset_type: Equity
+  canonical_name: BKR
+  category: US Energy
+  country: US
+  section: 1.4
+  sector: Energy
+  yahoo_ticker: BKR
+BLK:
+  asset_type: Equity
+  canonical_name: BLK
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: BLK
+BMY:
+  asset_type: Equity
+  canonical_name: BMY
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: BMY
+BND:
+  asset_type: Bond/Rate
+  canonical_name: BND
+  category: Macro - Bonds
+  country: US
+  section: 1.8
+  sector: Macro - Bonds
+  yahoo_ticker: BND
+BNO:
+  asset_type: Commodity
+  canonical_name: BNO
+  category: Macro - Commodities
+  country: Global
+  section: 1.8
+  sector: Macro - Commodities
+  yahoo_ticker: BNO
+BNTX:
+  asset_type: Equity
+  canonical_name: BNTX
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: BNTX
+BOSCHLTD:
+  asset_type: Equity
+  canonical_name: BOSCHLTD
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Consumer Discretionary
+  yahoo_ticker: BOSCHLTD.NS
+BOTZ:
+  asset_type: ETF
+  canonical_name: BOTZ
+  category: ETFs - Thematic
+  country: US
+  section: 1.7
+  sector: ETFs - Thematic
+  yahoo_ticker: BOTZ
+BPCL:
+  asset_type: Equity
+  canonical_name: BPCL
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Energy
+  yahoo_ticker: BPCL.NS
+BRITANNIA:
+  asset_type: Equity
+  canonical_name: BRITANNIA
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Consumer Staples
+  yahoo_ticker: BRITANNIA.NS
+BSE:
+  asset_type: Equity
+  canonical_name: BSE
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: BSE.NS
+BSX:
+  asset_type: Equity
+  canonical_name: BSX
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: BSX
+BTC-USD:
+  asset_type: Crypto
+  canonical_name: BTC-USD
+  category: Macro - Crypto
+  country: Global
+  section: 1.8
+  sector: Macro - Crypto
+  yahoo_ticker: BTC-USD
+C:
+  asset_type: Equity
+  canonical_name: C
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: C
+CAG:
+  asset_type: Equity
+  canonical_name: CAG
+  category: Consumer Staples
+  country: US
+  section: 1.5
+  sector: Consumer Staples
+  yahoo_ticker: CAG
+CAMS:
+  asset_type: Equity
+  canonical_name: CAMS
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: CAMS.NS
+CANBK:
+  asset_type: Equity
+  canonical_name: CANBK
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: CANBK.NS
+CANE:
+  asset_type: Commodity
+  canonical_name: CANE
+  category: Macro - Commodities
+  country: Global
+  section: 1.8
+  sector: Macro - Commodities
+  yahoo_ticker: CANE
+CANFINHOME:
+  asset_type: Equity
+  canonical_name: CANFINHOME
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: CANFINHOME.NS
+CARR:
+  asset_type: Equity
+  canonical_name: CARR
+  category: Industrials
+  country: US
+  section: 1.5
+  sector: Industrials
+  yahoo_ticker: CARR
+CAT:
+  asset_type: Equity
+  canonical_name: CAT
+  category: Industrials
+  country: US
+  section: 1.5
+  sector: Industrials
+  yahoo_ticker: CAT
+CB:
+  asset_type: Equity
+  canonical_name: CB
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: CB
+CCI:
+  asset_type: Equity
+  canonical_name: CCI
+  category: Real Estate
+  country: US
+  section: 1.5
+  sector: Real Estate
+  yahoo_ticker: CCI
+CCL:
+  asset_type: Equity
+  canonical_name: CCL
+  category: Consumer Discretionary
+  country: US
+  section: 1.5
+  sector: Consumer Discretionary
+  yahoo_ticker: CCL
+CDSL:
+  asset_type: Equity
+  canonical_name: CDSL
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: CDSL.NS
+CEATLTD:
+  asset_type: Equity
+  canonical_name: CEATLTD
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Consumer Discretionary
+  yahoo_ticker: CEATLTD.NS
+CENTURYPLY:
+  asset_type: Equity
+  canonical_name: CENTURYPLY
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Materials
+  yahoo_ticker: CENTURYPLY.NS
+CESC:
+  asset_type: Equity
+  canonical_name: CESC
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Utilities
+  yahoo_ticker: CESC.NS
+CF:
+  asset_type: Equity
+  canonical_name: CF
+  category: Materials
+  country: US
+  section: 1.5
+  sector: Materials
+  yahoo_ticker: CF
+CFG:
+  asset_type: Equity
+  canonical_name: CFG
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: CFG
+CHD:
+  asset_type: Equity
+  canonical_name: CHD
+  category: Consumer Staples
+  country: US
+  section: 1.5
+  sector: Consumer Staples
+  yahoo_ticker: CHD
+CHOLAFIN:
+  asset_type: Equity
+  canonical_name: CHOLAFIN
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: CHOLAFIN.NS
+CI:
+  asset_type: Equity
+  canonical_name: CI
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: CI
+CIBR:
+  asset_type: ETF
+  canonical_name: CIBR
+  category: ETFs - Thematic
+  country: US
+  section: 1.7
+  sector: ETFs - Thematic
+  yahoo_ticker: CIBR
+CIPLA:
+  asset_type: Equity
+  canonical_name: CIPLA
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Healthcare
+  yahoo_ticker: CIPLA.NS
+CITYUNIONB:
+  asset_type: Equity
+  canonical_name: CITYUNIONB
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: CITYUNIONB.NS
+CL:
+  asset_type: Equity
+  canonical_name: CL
+  category: Consumer Staples
+  country: US
+  section: 1.5
+  sector: Consumer Staples
+  yahoo_ticker: CL
+CLOU:
+  asset_type: ETF
+  canonical_name: CLOU
+  category: ETFs - Thematic
+  country: US
+  section: 1.7
+  sector: ETFs - Thematic
+  yahoo_ticker: CLOU
+CLX:
+  asset_type: Equity
+  canonical_name: CLX
+  category: Consumer Staples
+  country: US
+  section: 1.5
+  sector: Consumer Staples
+  yahoo_ticker: CLX
+CME:
+  asset_type: Equity
+  canonical_name: CME
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: CME
+CMG:
+  asset_type: Equity
+  canonical_name: CMG
+  category: Consumer Discretionary
+  country: US
+  section: 1.5
+  sector: Consumer Discretionary
+  yahoo_ticker: CMG
+CMS:
+  asset_type: Equity
+  canonical_name: CMS
+  category: Utilities
+  country: US
+  section: 1.5
+  sector: Utilities
+  yahoo_ticker: CMS
+COALINDIA:
+  asset_type: Equity
+  canonical_name: COALINDIA
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Energy
+  yahoo_ticker: COALINDIA.NS
+COF:
+  asset_type: Equity
+  canonical_name: COF
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: COF
+COFORGE:
+  asset_type: Equity
+  canonical_name: COFORGE
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Technology
+  yahoo_ticker: COFORGE.NS
+COIN:
+  asset_type: Equity
+  canonical_name: COIN
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Financials
+  yahoo_ticker: COIN
+COLPAL:
+  asset_type: Equity
+  canonical_name: COLPAL
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Consumer Staples
+  yahoo_ticker: COLPAL.NS
+CONCOR:
+  asset_type: Equity
+  canonical_name: CONCOR
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Industrials
+  yahoo_ticker: CONCOR.NS
+COP:
+  asset_type: Equity
+  canonical_name: COP
+  category: US Energy
+  country: US
+  section: 1.4
+  sector: Energy
+  yahoo_ticker: COP
+CORN:
+  asset_type: Commodity
+  canonical_name: CORN
+  category: Macro - Commodities
+  country: Global
+  section: 1.8
+  sector: Macro - Commodities
+  yahoo_ticker: CORN
+COST:
+  asset_type: Equity
+  canonical_name: COST
+  category: Consumer Staples
+  country: US
+  section: 1.5
+  sector: Consumer Staples
+  yahoo_ticker: COST
+COWZ:
+  asset_type: ETF
+  canonical_name: COWZ
+  category: ETFs - Factor
+  country: US
+  section: 1.7
+  sector: ETFs - Factor
+  yahoo_ticker: COWZ
+CPB:
+  asset_type: Equity
+  canonical_name: CPB
+  category: Consumer Staples
+  country: US
+  section: 1.5
+  sector: Consumer Staples
+  yahoo_ticker: CPB
+CPER:
+  asset_type: Commodity
+  canonical_name: CPER
+  category: Macro - Commodities
+  country: Global
+  section: 1.8
+  sector: Macro - Commodities
+  yahoo_ticker: CPER
+CPT:
+  asset_type: Equity
+  canonical_name: CPT
+  category: Real Estate
+  country: US
+  section: 1.5
+  sector: Real Estate
+  yahoo_ticker: CPT
+CRM:
+  asset_type: Equity
+  canonical_name: CRM
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: CRM
+CRWD:
+  asset_type: Equity
+  canonical_name: CRWD
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: CRWD
+CSX:
+  asset_type: Equity
+  canonical_name: CSX
+  category: Industrials
+  country: US
+  section: 1.5
+  sector: Industrials
+  yahoo_ticker: CSX
+CTRA:
+  asset_type: Equity
+  canonical_name: CTRA
+  category: US Energy
+  country: US
+  section: 1.4
+  sector: Energy
+  yahoo_ticker: CTRA
+CUMMINSIND:
+  asset_type: Equity
+  canonical_name: CUMMINSIND
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Industrials
+  yahoo_ticker: CUMMINSIND.NS
+CVS:
+  asset_type: Equity
+  canonical_name: CVS
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: CVS
+CVX:
+  asset_type: Equity
+  canonical_name: CVX
+  category: US Energy
+  country: US
+  section: 1.4
+  sector: Energy
+  yahoo_ticker: CVX
+D:
+  asset_type: Equity
+  canonical_name: D
+  category: Utilities
+  country: US
+  section: 1.5
+  sector: Utilities
+  yahoo_ticker: D
+DABUR:
+  asset_type: Equity
+  canonical_name: DABUR
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Consumer Staples
+  yahoo_ticker: DABUR.NS
+DAL:
+  asset_type: Equity
+  canonical_name: DAL
+  category: Consumer Discretionary
+  country: US
+  section: 1.5
+  sector: Consumer Discretionary
+  yahoo_ticker: DAL
+DALBHARAT:
+  asset_type: Equity
+  canonical_name: DALBHARAT
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Materials
+  yahoo_ticker: DALBHARAT.NS
+DASH:
+  asset_type: Equity
+  canonical_name: DASH
+  category: Consumer Discretionary
+  country: US
+  section: 1.5
+  sector: Consumer Discretionary
+  yahoo_ticker: DASH
+DBA:
+  asset_type: Commodity
+  canonical_name: DBA
+  category: Macro - Commodities
+  country: Global
+  section: 1.8
+  sector: Macro - Commodities
+  yahoo_ticker: DBA
+DCBBANK:
+  asset_type: Equity
+  canonical_name: DCBBANK
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: DCBBANK.NS
+DD:
+  asset_type: Equity
+  canonical_name: DD
+  category: Materials
+  country: US
+  section: 1.5
+  sector: Materials
+  yahoo_ticker: DD
+DDOG:
+  asset_type: Equity
+  canonical_name: DDOG
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: DDOG
+DE:
+  asset_type: Equity
+  canonical_name: DE
+  category: Industrials
+  country: US
+  section: 1.5
+  sector: Industrials
+  yahoo_ticker: DE
+DEEPAKNI:
+  asset_type: Equity
+  canonical_name: DEEPAKNI
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Materials
+  yahoo_ticker: DEEPAKNI.NS
+DELL:
+  asset_type: Equity
+  canonical_name: DELL
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: DELL
+DFS:
+  asset_type: Equity
+  canonical_name: DFS
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: DFS
+DGRO:
+  asset_type: ETF
+  canonical_name: DGRO
+  category: ETFs - Factor
+  country: US
+  section: 1.7
+  sector: ETFs - Factor
+  yahoo_ticker: DGRO
+DHR:
+  asset_type: Equity
+  canonical_name: DHR
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: DHR
+DIA:
+  asset_type: ETF
+  canonical_name: DIA
+  category: ETFs - Broad Market
+  country: US
+  section: 1.7
+  sector: ETFs - Broad Market
+  yahoo_ticker: DIA
+DIVISLAB:
+  asset_type: Equity
+  canonical_name: DIVISLAB
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Healthcare
+  yahoo_ticker: DIVISLAB.NS
+DIXON:
+  asset_type: Equity
+  canonical_name: DIXON
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Technology
+  yahoo_ticker: DIXON.NS
+DKNG:
+  asset_type: Equity
+  canonical_name: DKNG
+  category: Consumer Discretionary
+  country: US
+  section: 1.5
+  sector: Consumer Discretionary
+  yahoo_ticker: DKNG
+DLR:
+  asset_type: Equity
+  canonical_name: DLR
+  category: Real Estate
+  country: US
+  section: 1.5
+  sector: Real Estate
+  yahoo_ticker: DLR
+DMART:
+  asset_type: Equity
+  canonical_name: DMART
+  category: India Equities
+  country: IN
+  notes: Yahoo ticker may differ — verify before bulk download
+  section: 1.6
+  sector: Consumer Staples
+  verify_yahoo: true
+  yahoo_ticker: DMART.NS
+DOV:
+  asset_type: Equity
+  canonical_name: DOV
+  category: Industrials
+  country: US
+  section: 1.5
+  sector: Industrials
+  yahoo_ticker: DOV
+DRI:
+  asset_type: Equity
+  canonical_name: DRI
+  category: Consumer Discretionary
+  country: US
+  section: 1.5
+  sector: Consumer Discretionary
+  yahoo_ticker: DRI
+DRREDDY:
+  asset_type: Equity
+  canonical_name: DRREDDY
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Healthcare
+  yahoo_ticker: DRREDDY.NS
+DUK:
+  asset_type: Equity
+  canonical_name: DUK
+  category: Utilities
+  country: US
+  section: 1.5
+  sector: Utilities
+  yahoo_ticker: DUK
+DVN:
+  asset_type: Equity
+  canonical_name: DVN
+  category: US Energy
+  country: US
+  section: 1.4
+  sector: Energy
+  yahoo_ticker: DVN
+DXCM:
+  asset_type: Equity
+  canonical_name: DXCM
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: DXCM
+DXY:
+  asset_type: FX
+  canonical_name: DXY
+  category: Macro - FX
+  country: Global
+  section: 1.8
+  sector: Macro - FX
+  yahoo_ticker: DXY
+EBAY:
+  asset_type: Equity
+  canonical_name: EBAY
+  category: Consumer Discretionary
+  country: US
+  section: 1.5
+  sector: Consumer Discretionary
+  yahoo_ticker: EBAY
+ECL:
+  asset_type: Equity
+  canonical_name: ECL
+  category: Materials
+  country: US
+  section: 1.5
+  sector: Materials
+  yahoo_ticker: ECL
+EEM:
+  asset_type: ETF
+  canonical_name: EEM
+  category: ETFs - Country
+  country: US
+  section: 1.7
+  sector: ETFs - Country
+  yahoo_ticker: EEM
+EFA:
+  asset_type: ETF
+  canonical_name: EFA
+  category: ETFs - International
+  country: US
+  section: 1.7
+  sector: ETFs - International
+  yahoo_ticker: EFA
+EICHERMOT:
+  asset_type: Equity
+  canonical_name: EICHERMOT
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Consumer Discretionary
+  yahoo_ticker: EICHERMOT.NS
+EL:
+  asset_type: Equity
+  canonical_name: EL
+  category: Consumer Staples
+  country: US
+  section: 1.5
+  sector: Consumer Staples
+  yahoo_ticker: EL
+ELV:
+  asset_type: Equity
+  canonical_name: ELV
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: ELV
+EMB:
+  asset_type: Bond/Rate
+  canonical_name: EMB
+  category: Macro - Bonds
+  country: US
+  section: 1.8
+  sector: Macro - Bonds
+  yahoo_ticker: EMB
+EMR:
+  asset_type: Equity
+  canonical_name: EMR
+  category: Industrials
+  country: US
+  section: 1.5
+  sector: Industrials
+  yahoo_ticker: EMR
+EOG:
+  asset_type: Equity
+  canonical_name: EOG
+  category: US Energy
+  country: US
+  section: 1.4
+  sector: Energy
+  yahoo_ticker: EOG
+EQIX:
+  asset_type: Equity
+  canonical_name: EQIX
+  category: Real Estate
+  country: US
+  section: 1.5
+  sector: Real Estate
+  yahoo_ticker: EQIX
+EQR:
+  asset_type: Equity
+  canonical_name: EQR
+  category: Real Estate
+  country: US
+  section: 1.5
+  sector: Real Estate
+  yahoo_ticker: EQR
+EQT:
+  asset_type: Equity
+  canonical_name: EQT
+  category: US Energy
+  country: US
+  section: 1.4
+  sector: Energy
+  yahoo_ticker: EQT
+ES:
+  asset_type: Equity
+  canonical_name: ES
+  category: Utilities
+  country: US
+  section: 1.5
+  sector: Utilities
+  yahoo_ticker: ES
+ESS:
+  asset_type: Equity
+  canonical_name: ESS
+  category: Real Estate
+  country: US
+  section: 1.5
+  sector: Real Estate
+  yahoo_ticker: ESS
+ETH-USD:
+  asset_type: Crypto
+  canonical_name: ETH-USD
+  category: Macro - Crypto
+  country: Global
+  section: 1.8
+  sector: Macro - Crypto
+  yahoo_ticker: ETH-USD
+ETN:
+  asset_type: Equity
+  canonical_name: ETN
+  category: Industrials
+  country: US
+  section: 1.5
+  sector: Industrials
+  yahoo_ticker: ETN
+ETR:
+  asset_type: Equity
+  canonical_name: ETR
+  category: Utilities
+  country: US
+  section: 1.5
+  sector: Utilities
+  yahoo_ticker: ETR
+ETSY:
+  asset_type: Equity
+  canonical_name: ETSY
+  category: Consumer Discretionary
+  country: US
+  section: 1.5
+  sector: Consumer Discretionary
+  yahoo_ticker: ETSY
+EVRG:
+  asset_type: Equity
+  canonical_name: EVRG
+  category: Utilities
+  country: US
+  section: 1.5
+  sector: Utilities
+  yahoo_ticker: EVRG
+EW:
+  asset_type: Equity
+  canonical_name: EW
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: EW
+EWA:
+  asset_type: ETF
+  canonical_name: EWA
+  category: ETFs - Country
+  country: US
+  section: 1.7
+  sector: ETFs - Country
+  yahoo_ticker: EWA
+EWC:
+  asset_type: ETF
+  canonical_name: EWC
+  category: ETFs - Country
+  country: US
+  section: 1.7
+  sector: ETFs - Country
+  yahoo_ticker: EWC
+EWG:
+  asset_type: ETF
+  canonical_name: EWG
+  category: ETFs - Country
+  country: US
+  section: 1.7
+  sector: ETFs - Country
+  yahoo_ticker: EWG
+EWI:
+  asset_type: ETF
+  canonical_name: EWI
+  category: ETFs - Country
+  country: US
+  section: 1.7
+  sector: ETFs - Country
+  yahoo_ticker: EWI
+EWJ:
+  asset_type: ETF
+  canonical_name: EWJ
+  category: ETFs - Country
+  country: US
+  section: 1.7
+  sector: ETFs - Country
+  yahoo_ticker: EWJ
+EWS:
+  asset_type: ETF
+  canonical_name: EWS
+  category: ETFs - Country
+  country: US
+  section: 1.7
+  sector: ETFs - Country
+  yahoo_ticker: EWS
+EWU:
+  asset_type: ETF
+  canonical_name: EWU
+  category: ETFs - Country
+  country: US
+  section: 1.7
+  sector: ETFs - Country
+  yahoo_ticker: EWU
+EWZ:
+  asset_type: ETF
+  canonical_name: EWZ
+  category: ETFs - Country
+  country: US
+  section: 1.7
+  sector: ETFs - Country
+  yahoo_ticker: EWZ
+EXC:
+  asset_type: Equity
+  canonical_name: EXC
+  category: Utilities
+  country: US
+  section: 1.5
+  sector: Utilities
+  yahoo_ticker: EXC
+EXR:
+  asset_type: Equity
+  canonical_name: EXR
+  category: Real Estate
+  country: US
+  section: 1.5
+  sector: Real Estate
+  yahoo_ticker: EXR
+F:
+  asset_type: Equity
+  canonical_name: F
+  category: Consumer Discretionary
+  country: US
+  section: 1.5
+  sector: Consumer Discretionary
+  yahoo_ticker: F
+FANG:
+  asset_type: Equity
+  canonical_name: FANG
+  category: US Energy
+  country: US
+  section: 1.4
+  sector: Energy
+  yahoo_ticker: FANG
+FCX:
+  asset_type: Equity
+  canonical_name: FCX
+  category: Materials
+  country: US
+  section: 1.5
+  sector: Materials
+  yahoo_ticker: FCX
+FDX:
+  asset_type: Equity
+  canonical_name: FDX
+  category: Industrials
+  country: US
+  section: 1.5
+  sector: Industrials
+  yahoo_ticker: FDX
+FE:
+  asset_type: Equity
+  canonical_name: FE
+  category: Utilities
+  country: US
+  section: 1.5
+  sector: Utilities
+  yahoo_ticker: FE
+FEDERALBNK:
+  asset_type: Equity
+  canonical_name: FEDERALBNK
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: FEDERALBNK.NS
+FITB:
+  asset_type: Equity
+  canonical_name: FITB
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: FITB
+FIVE:
+  asset_type: Equity
+  canonical_name: FIVE
+  category: Consumer Discretionary
+  country: US
+  section: 1.5
+  sector: Consumer Discretionary
+  yahoo_ticker: FIVE
+FORTIS:
+  asset_type: Equity
+  canonical_name: FORTIS
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Healthcare
+  yahoo_ticker: FORTIS.NS
+FTNT:
+  asset_type: Equity
+  canonical_name: FTNT
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: FTNT
+FXA:
+  asset_type: FX
+  canonical_name: FXA
+  category: Macro - FX
+  country: Global
+  section: 1.8
+  sector: Macro - FX
+  yahoo_ticker: FXA
+FXB:
+  asset_type: FX
+  canonical_name: FXB
+  category: Macro - FX
+  country: Global
+  section: 1.8
+  sector: Macro - FX
+  yahoo_ticker: FXB
+FXC:
+  asset_type: FX
+  canonical_name: FXC
+  category: Macro - FX
+  country: Global
+  section: 1.8
+  sector: Macro - FX
+  yahoo_ticker: FXC
+FXE:
+  asset_type: FX
+  canonical_name: FXE
+  category: Macro - FX
+  country: Global
+  section: 1.8
+  sector: Macro - FX
+  yahoo_ticker: FXE
+FXF:
+  asset_type: FX
+  canonical_name: FXF
+  category: Macro - FX
+  country: Global
+  section: 1.8
+  sector: Macro - FX
+  yahoo_ticker: FXF
+FXI:
+  asset_type: ETF
+  canonical_name: FXI
+  category: ETFs - Country
+  country: US
+  section: 1.7
+  sector: ETFs - Country
+  yahoo_ticker: FXI
+FXY:
+  asset_type: FX
+  canonical_name: FXY
+  category: Macro - FX
+  country: Global
+  section: 1.8
+  sector: Macro - FX
+  yahoo_ticker: FXY
+GAIL:
+  asset_type: Equity
+  canonical_name: GAIL
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Energy
+  yahoo_ticker: GAIL.NS
+GD:
+  asset_type: Equity
+  canonical_name: GD
+  category: Industrials
+  country: US
+  section: 1.5
+  sector: Industrials
+  yahoo_ticker: GD
+GDX:
+  asset_type: Commodity
+  canonical_name: GDX
+  category: Macro - Commodities
+  country: Global
+  section: 1.8
+  sector: Macro - Commodities
+  yahoo_ticker: GDX
+GE:
+  asset_type: Equity
+  canonical_name: GE
+  category: Industrials
+  country: US
+  section: 1.5
+  sector: Industrials
+  yahoo_ticker: GE
+GEHC:
+  asset_type: Equity
+  canonical_name: GEHC
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: GEHC
+GEV:
+  asset_type: Equity
+  canonical_name: GEV
+  category: Industrials
+  country: US
+  section: 1.5
+  sector: Industrials
+  yahoo_ticker: GEV
+GILD:
+  asset_type: Equity
+  canonical_name: GILD
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: GILD
+GIS:
+  asset_type: Equity
+  canonical_name: GIS
+  category: Consumer Staples
+  country: US
+  section: 1.5
+  sector: Consumer Staples
+  yahoo_ticker: GIS
+GL:
+  asset_type: Equity
+  canonical_name: GL
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: GL
+GLAND:
+  asset_type: Equity
+  canonical_name: GLAND
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Healthcare
+  yahoo_ticker: GLAND.NS
+GLAXO:
+  asset_type: Equity
+  canonical_name: GLAXO
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Healthcare
+  yahoo_ticker: GLAXO.NS
+GLD:
+  asset_type: Commodity
+  canonical_name: GLD
+  category: Macro - Commodities
+  country: Global
+  section: 1.8
+  sector: Macro - Commodities
+  yahoo_ticker: GLD
+GM:
+  asset_type: Equity
+  canonical_name: GM
+  category: Consumer Discretionary
+  country: US
+  section: 1.5
+  sector: Consumer Discretionary
+  yahoo_ticker: GM
+GODREJCP:
+  asset_type: Equity
+  canonical_name: GODREJCP
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Consumer Staples
+  yahoo_ticker: GODREJCP.NS
+GOOGL:
+  asset_type: Equity
+  canonical_name: GOOGL
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: GOOGL
+GRANULES:
+  asset_type: Equity
+  canonical_name: GRANULES
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Healthcare
+  yahoo_ticker: GRANULES.NS
+GRASIM:
+  asset_type: Equity
+  canonical_name: GRASIM
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Materials
+  yahoo_ticker: GRASIM.NS
+GS:
+  asset_type: Equity
+  canonical_name: GS
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: GS
+HACK:
+  asset_type: ETF
+  canonical_name: HACK
+  category: ETFs - Thematic
+  country: US
+  section: 1.7
+  sector: ETFs - Thematic
+  yahoo_ticker: HACK
+HAL:
+  asset_type: Equity
+  canonical_name: HAL
+  category: US Energy (Halliburton)
+  country: US
+  section: 1.4
+  sector: US Energy (Halliburton)
+  yahoo_ticker: HAL
+HAL.NS:
+  asset_type: Equity
+  canonical_name: HAL.NS
+  category: India Equities (Hindustan Aeronautics)
+  country: IN
+  section: 1.6
+  sector: Industrials
+  yahoo_ticker: HAL.NS
+HAVELLS:
+  asset_type: Equity
+  canonical_name: HAVELLS
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Industrials
+  yahoo_ticker: HAVELLS.NS
+HBAN:
+  asset_type: Equity
+  canonical_name: HBAN
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: HBAN
+HCA:
+  asset_type: Equity
+  canonical_name: HCA
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: HCA
+HCLTECH:
+  asset_type: Equity
+  canonical_name: HCLTECH
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Technology
+  yahoo_ticker: HCLTECH.NS
+HD:
+  asset_type: Equity
+  canonical_name: HD
+  category: Consumer Discretionary
+  country: US
+  section: 1.5
+  sector: Consumer Discretionary
+  yahoo_ticker: HD
+HDFCBANK:
+  asset_type: Equity
+  canonical_name: HDFCBANK
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: HDFCBANK.NS
+HDFCLIFE:
+  asset_type: Equity
+  canonical_name: HDFCLIFE
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: HDFCLIFE.NS
+HEROMOTOCO:
+  asset_type: Equity
+  canonical_name: HEROMOTOCO
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Consumer Discretionary
+  yahoo_ticker: HEROMOTOCO.NS
+HES:
+  asset_type: Equity
+  canonical_name: HES
+  category: US Energy
+  country: US
+  section: 1.4
+  sector: Energy
+  yahoo_ticker: HES
+HFCL:
+  asset_type: Equity
+  canonical_name: HFCL
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Technology
+  yahoo_ticker: HFCL.NS
+HINDALCO:
+  asset_type: Equity
+  canonical_name: HINDALCO
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Materials
+  yahoo_ticker: HINDALCO.NS
+HINDPETRO:
+  asset_type: Equity
+  canonical_name: HINDPETRO
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Energy
+  yahoo_ticker: HINDPETRO.NS
+HINDUNILVR:
+  asset_type: Equity
+  canonical_name: HINDUNILVR
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Consumer Staples
+  yahoo_ticker: HINDUNILVR.NS
+HLT:
+  asset_type: Equity
+  canonical_name: HLT
+  category: Consumer Discretionary
+  country: US
+  section: 1.5
+  sector: Consumer Discretionary
+  yahoo_ticker: HLT
+HOLX:
+  asset_type: Equity
+  canonical_name: HOLX
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: HOLX
+HOMEFIRST:
+  asset_type: Equity
+  canonical_name: HOMEFIRST
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: HOMEFIRST.NS
+HON:
+  asset_type: Equity
+  canonical_name: HON
+  category: Industrials
+  country: US
+  section: 1.5
+  sector: Industrials
+  yahoo_ticker: HON
+HPE:
+  asset_type: Equity
+  canonical_name: HPE
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: HPE
+HPQ:
+  asset_type: Equity
+  canonical_name: HPQ
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: HPQ
+HRL:
+  asset_type: Equity
+  canonical_name: HRL
+  category: Consumer Staples
+  country: US
+  section: 1.5
+  sector: Consumer Staples
+  yahoo_ticker: HRL
+HUBB:
+  asset_type: Equity
+  canonical_name: HUBB
+  category: Industrials
+  country: US
+  section: 1.5
+  sector: Industrials
+  yahoo_ticker: HUBB
+HUBS:
+  asset_type: Equity
+  canonical_name: HUBS
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: HUBS
+HUM:
+  asset_type: Equity
+  canonical_name: HUM
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: HUM
+HYG:
+  asset_type: Bond/Rate
+  canonical_name: HYG
+  category: Macro - Bonds
+  country: US
+  section: 1.8
+  sector: Macro - Bonds
+  yahoo_ticker: HYG
+IBB:
+  asset_type: ETF
+  canonical_name: IBB
+  category: ETFs - Thematic
+  country: US
+  section: 1.7
+  sector: ETFs - Thematic
+  yahoo_ticker: IBB
+IBIT:
+  asset_type: Crypto
+  canonical_name: IBIT
+  category: Macro - Crypto
+  country: Global
+  section: 1.8
+  sector: Macro - Crypto
+  yahoo_ticker: IBIT
+ICE:
+  asset_type: Equity
+  canonical_name: ICE
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: ICE
+ICICIBANK:
+  asset_type: Equity
+  canonical_name: ICICIBANK
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: ICICIBANK.NS
+ICICIPRULI:
+  asset_type: Equity
+  canonical_name: ICICIPRULI
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: ICICIPRULI.NS
+IDFCFIRSTB:
+  asset_type: Equity
+  canonical_name: IDFCFIRSTB
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: IDFCFIRSTB.NS
+IDXX:
+  asset_type: Equity
+  canonical_name: IDXX
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: IDXX
+IEF:
+  asset_type: Bond/Rate
+  canonical_name: IEF
+  category: Macro - Bonds
+  country: US
+  section: 1.8
+  sector: Macro - Bonds
+  yahoo_ticker: IEF
+IFF:
+  asset_type: Equity
+  canonical_name: IFF
+  category: Materials
+  country: US
+  section: 1.5
+  sector: Materials
+  yahoo_ticker: IFF
+INDA:
+  asset_type: ETF
+  canonical_name: INDA
+  category: ETFs - Country
+  country: US
+  section: 1.7
+  sector: ETFs - Country
+  yahoo_ticker: INDA
+INDIAMART:
+  asset_type: Equity
+  canonical_name: INDIAMART
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Technology
+  yahoo_ticker: INDIAMART.NS
+INDUSINDBK:
+  asset_type: Equity
+  canonical_name: INDUSINDBK
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: INDUSINDBK.NS
+INFY:
+  asset_type: Equity
+  canonical_name: INFY
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Technology
+  yahoo_ticker: INFY.NS
+INSP:
+  asset_type: Equity
+  canonical_name: INSP
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: INSP
+INTC:
+  asset_type: Equity
+  canonical_name: INTC
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: INTC
+IOC:
+  asset_type: Equity
+  canonical_name: IOC
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Energy
+  yahoo_ticker: IOC.NS
+IONS:
+  asset_type: Equity
+  canonical_name: IONS
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: IONS
+IP:
+  asset_type: Equity
+  canonical_name: IP
+  category: Materials
+  country: US
+  section: 1.5
+  sector: Materials
+  yahoo_ticker: IP
+IPCALAB:
+  asset_type: Equity
+  canonical_name: IPCALAB
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Healthcare
+  yahoo_ticker: IPCALAB.NS
+IQV:
+  asset_type: Equity
+  canonical_name: IQV
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: IQV
+IR:
+  asset_type: Equity
+  canonical_name: IR
+  category: Industrials
+  country: US
+  section: 1.5
+  sector: Industrials
+  yahoo_ticker: IR
+IRCTC:
+  asset_type: Equity
+  canonical_name: IRCTC
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Consumer Discretionary
+  yahoo_ticker: IRCTC.NS
+IRFC:
+  asset_type: Equity
+  canonical_name: IRFC
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: IRFC.NS
+ISRG:
+  asset_type: Equity
+  canonical_name: ISRG
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: ISRG
+ITC:
+  asset_type: Equity
+  canonical_name: ITC
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Consumer Staples
+  yahoo_ticker: ITC.NS
+ITW:
+  asset_type: Equity
+  canonical_name: ITW
+  category: Industrials
+  country: US
+  section: 1.5
+  sector: Industrials
+  yahoo_ticker: ITW
+IWM:
+  asset_type: ETF
+  canonical_name: IWM
+  category: ETFs - Broad Market
+  country: US
+  section: 1.7
+  sector: ETFs - Broad Market
+  yahoo_ticker: IWM
+JKCEMENT:
+  asset_type: Equity
+  canonical_name: JKCEMENT
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Materials
+  yahoo_ticker: JKCEMENT.NS
+JNJ:
+  asset_type: Equity
+  canonical_name: JNJ
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: JNJ
+JNK:
+  asset_type: Bond/Rate
+  canonical_name: JNK
+  category: Macro - Bonds
+  country: US
+  section: 1.8
+  sector: Macro - Bonds
+  yahoo_ticker: JNK
+JO:
+  asset_type: Commodity
+  canonical_name: JO
+  category: Macro - Commodities
+  country: Global
+  section: 1.8
+  sector: Macro - Commodities
+  yahoo_ticker: JO
+JPM:
+  asset_type: Equity
+  canonical_name: JPM
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: JPM
+JSWSTEEL:
+  asset_type: Equity
+  canonical_name: JSWSTEEL
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Materials
+  yahoo_ticker: JSWSTEEL.NS
+JUBLFOOD:
+  asset_type: Equity
+  canonical_name: JUBLFOOD
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Consumer Discretionary
+  yahoo_ticker: JUBLFOOD.NS
+K:
+  asset_type: Equity
+  canonical_name: K
+  category: Consumer Staples
+  country: US
+  section: 1.5
+  sector: Consumer Staples
+  yahoo_ticker: K
+KALPATPOWR:
+  asset_type: Equity
+  canonical_name: KALPATPOWR
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Industrials
+  yahoo_ticker: KALPATPOWR.NS
+KARURVYSYA:
+  asset_type: Equity
+  canonical_name: KARURVYSYA
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: KARURVYSYA.NS
+KAYNES:
+  asset_type: Equity
+  canonical_name: KAYNES
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Technology
+  yahoo_ticker: KAYNES.NS
+KBE:
+  asset_type: ETF
+  canonical_name: KBE
+  category: ETFs - Thematic
+  country: US
+  section: 1.7
+  sector: ETFs - Thematic
+  yahoo_ticker: KBE
+KEC:
+  asset_type: Equity
+  canonical_name: KEC
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Industrials
+  yahoo_ticker: KEC.NS
+KEY:
+  asset_type: Equity
+  canonical_name: KEY
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: KEY
+KFINTECH:
+  asset_type: Equity
+  canonical_name: KFINTECH
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: KFINTECH.NS
+KHC:
+  asset_type: Equity
+  canonical_name: KHC
+  category: Consumer Staples
+  country: US
+  section: 1.5
+  sector: Consumer Staples
+  yahoo_ticker: KHC
+KLAC:
+  asset_type: Equity
+  canonical_name: KLAC
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: KLAC
+KMI:
+  asset_type: Equity
+  canonical_name: KMI
+  category: US Energy
+  country: US
+  section: 1.4
+  sector: Energy
+  yahoo_ticker: KMI
+KO:
+  asset_type: Equity
+  canonical_name: KO
+  category: Consumer Staples
+  country: US
+  section: 1.5
+  sector: Consumer Staples
+  yahoo_ticker: KO
+KOLD:
+  asset_type: Commodity
+  canonical_name: KOLD
+  category: Macro - Commodities
+  country: Global
+  section: 1.8
+  sector: Macro - Commodities
+  yahoo_ticker: KOLD
+KOTAKBANK:
+  asset_type: Equity
+  canonical_name: KOTAKBANK
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: KOTAKBANK.NS
+KPIT:
+  asset_type: Equity
+  canonical_name: KPIT
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Technology
+  yahoo_ticker: KPIT.NS
+KRE:
+  asset_type: ETF
+  canonical_name: KRE
+  category: ETFs - Thematic
+  country: US
+  section: 1.7
+  sector: ETFs - Thematic
+  yahoo_ticker: KRE
+KWEB:
+  asset_type: ETF
+  canonical_name: KWEB
+  category: ETFs - Country
+  country: US
+  section: 1.7
+  sector: ETFs - Country
+  yahoo_ticker: KWEB
+LALPATHLAB:
+  asset_type: Equity
+  canonical_name: LALPATHLAB
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Healthcare
+  yahoo_ticker: LALPATHLAB.NS
+LDOS:
+  asset_type: Equity
+  canonical_name: LDOS
+  category: Industrials
+  country: US
+  section: 1.5
+  sector: Industrials
+  yahoo_ticker: LDOS
+LICHSGFIN:
+  asset_type: Equity
+  canonical_name: LICHSGFIN
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: LICHSGFIN.NS
+LICI:
+  asset_type: Equity
+  canonical_name: LICI
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: LICI.NS
+LIN:
+  asset_type: Equity
+  canonical_name: LIN
+  category: Materials
+  country: US
+  section: 1.5
+  sector: Materials
+  yahoo_ticker: LIN
+LIT:
+  asset_type: ETF
+  canonical_name: LIT
+  category: ETFs - Thematic
+  country: US
+  section: 1.7
+  sector: ETFs - Thematic
+  yahoo_ticker: LIT
+LLY:
+  asset_type: Equity
+  canonical_name: LLY
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: LLY
+LMT:
+  asset_type: Equity
+  canonical_name: LMT
+  category: Industrials
+  country: US
+  section: 1.5
+  sector: Industrials
+  yahoo_ticker: LMT
+LNC:
+  asset_type: Equity
+  canonical_name: LNC
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: LNC
+LOW:
+  asset_type: Equity
+  canonical_name: LOW
+  category: Consumer Discretionary
+  country: US
+  section: 1.5
+  sector: Consumer Discretionary
+  yahoo_ticker: LOW
+LQD:
+  asset_type: Bond/Rate
+  canonical_name: LQD
+  category: Macro - Bonds
+  country: US
+  section: 1.8
+  sector: Macro - Bonds
+  yahoo_ticker: LQD
+LRCX:
+  asset_type: Equity
+  canonical_name: LRCX
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: LRCX
+LT:
+  asset_type: Equity
+  canonical_name: LT
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Industrials
+  yahoo_ticker: LT.NS
+LTTS:
+  asset_type: Equity
+  canonical_name: LTTS
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Technology
+  yahoo_ticker: LTTS.NS
+LUPIN:
+  asset_type: Equity
+  canonical_name: LUPIN
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Healthcare
+  yahoo_ticker: LUPIN.NS
+LUV:
+  asset_type: Equity
+  canonical_name: LUV
+  category: Consumer Discretionary
+  country: US
+  section: 1.5
+  sector: Consumer Discretionary
+  yahoo_ticker: LUV
+LVS:
+  asset_type: Equity
+  canonical_name: LVS
+  category: Consumer Discretionary
+  country: US
+  section: 1.5
+  sector: Consumer Discretionary
+  yahoo_ticker: LVS
+LYFT:
+  asset_type: Equity
+  canonical_name: LYFT
+  category: Consumer Discretionary
+  country: US
+  section: 1.5
+  sector: Consumer Discretionary
+  yahoo_ticker: LYFT
+M&M:
+  asset_type: Equity
+  canonical_name: M&M
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Consumer Discretionary
+  yahoo_ticker: M&M.NS
+MA:
+  asset_type: Equity
+  canonical_name: MA
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: MA
+MAA:
+  asset_type: Equity
+  canonical_name: MAA
+  category: Real Estate
+  country: US
+  section: 1.5
+  sector: Real Estate
+  yahoo_ticker: MAA
+MANAPPURAM:
+  asset_type: Equity
+  canonical_name: MANAPPURAM
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: MANAPPURAM.NS
+MANYAVAR:
+  asset_type: Equity
+  canonical_name: MANYAVAR
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Consumer Discretionary
+  yahoo_ticker: MANYAVAR.NS
+MAR:
+  asset_type: Equity
+  canonical_name: MAR
+  category: Consumer Discretionary
+  country: US
+  section: 1.5
+  sector: Consumer Discretionary
+  yahoo_ticker: MAR
+MARICO:
+  asset_type: Equity
+  canonical_name: MARICO
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Consumer Staples
+  yahoo_ticker: MARICO.NS
+MARUTI:
+  asset_type: Equity
+  canonical_name: MARUTI
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Consumer Discretionary
+  yahoo_ticker: MARUTI.NS
+MAXHEALTH:
+  asset_type: Equity
+  canonical_name: MAXHEALTH
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Healthcare
+  yahoo_ticker: MAXHEALTH.NS
+MCD:
+  asset_type: Equity
+  canonical_name: MCD
+  category: Consumer Discretionary
+  country: US
+  section: 1.5
+  sector: Consumer Discretionary
+  yahoo_ticker: MCD
+MCDOWELL-N:
+  asset_type: Equity
+  canonical_name: MCDOWELL-N
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Consumer Staples
+  yahoo_ticker: MCDOWELL-N.NS
+MCHI:
+  asset_type: ETF
+  canonical_name: MCHI
+  category: ETFs - Country
+  country: US
+  section: 1.7
+  sector: ETFs - Country
+  yahoo_ticker: MCHI
+MCO:
+  asset_type: Equity
+  canonical_name: MCO
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: MCO
+MCX:
+  asset_type: Equity
+  canonical_name: MCX
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: MCX.NS
+MDLZ:
+  asset_type: Equity
+  canonical_name: MDLZ
+  category: Consumer Staples
+  country: US
+  section: 1.5
+  sector: Consumer Staples
+  yahoo_ticker: MDLZ
+MDT:
+  asset_type: Equity
+  canonical_name: MDT
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: MDT
+MET:
+  asset_type: Equity
+  canonical_name: MET
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: MET
+META:
+  asset_type: Equity
+  canonical_name: META
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: META
+METROPOLIS:
+  asset_type: Equity
+  canonical_name: METROPOLIS
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Healthcare
+  yahoo_ticker: METROPOLIS.NS
+MFSL:
+  asset_type: Equity
+  canonical_name: MFSL
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: MFSL.NS
+MGM:
+  asset_type: Equity
+  canonical_name: MGM
+  category: Consumer Discretionary
+  country: US
+  section: 1.5
+  sector: Consumer Discretionary
+  yahoo_ticker: MGM
+MKC:
+  asset_type: Equity
+  canonical_name: MKC
+  category: Consumer Staples
+  country: US
+  section: 1.5
+  sector: Consumer Staples
+  yahoo_ticker: MKC
+MLM:
+  asset_type: Equity
+  canonical_name: MLM
+  category: Materials
+  country: US
+  section: 1.5
+  sector: Materials
+  yahoo_ticker: MLM
+MMC:
+  asset_type: Equity
+  canonical_name: MMC
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: MMC
+MMM:
+  asset_type: Equity
+  canonical_name: MMM
+  category: Industrials
+  country: US
+  section: 1.5
+  sector: Industrials
+  yahoo_ticker: MMM
+MNST:
+  asset_type: Equity
+  canonical_name: MNST
+  category: Consumer Staples
+  country: US
+  section: 1.5
+  sector: Consumer Staples
+  yahoo_ticker: MNST
+MO:
+  asset_type: Equity
+  canonical_name: MO
+  category: Consumer Staples
+  country: US
+  section: 1.5
+  sector: Consumer Staples
+  yahoo_ticker: MO
+MOAT:
+  asset_type: ETF
+  canonical_name: MOAT
+  category: ETFs - Factor
+  country: US
+  section: 1.7
+  sector: ETFs - Factor
+  yahoo_ticker: MOAT
+MOH:
+  asset_type: Equity
+  canonical_name: MOH
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: MOH
+MOS:
+  asset_type: Equity
+  canonical_name: MOS
+  category: Materials
+  country: US
+  section: 1.5
+  sector: Materials
+  yahoo_ticker: MOS
+MOTHERSON:
+  asset_type: Equity
+  canonical_name: MOTHERSON
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Consumer Discretionary
+  yahoo_ticker: MOTHERSON.NS
+MP:
+  asset_type: Equity
+  canonical_name: MP
+  category: Materials
+  country: US
+  section: 1.5
+  sector: Materials
+  yahoo_ticker: MP
+MPC:
+  asset_type: Equity
+  canonical_name: MPC
+  category: US Energy
+  country: US
+  section: 1.4
+  sector: Energy
+  yahoo_ticker: MPC
+MPHASIS:
+  asset_type: Equity
+  canonical_name: MPHASIS
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Technology
+  yahoo_ticker: MPHASIS.NS
+MRF:
+  asset_type: Equity
+  canonical_name: MRF
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Consumer Discretionary
+  yahoo_ticker: MRF.NS
+MRK:
+  asset_type: Equity
+  canonical_name: MRK
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: MRK
+MRNA:
+  asset_type: Equity
+  canonical_name: MRNA
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: MRNA
+MRO:
+  asset_type: Equity
+  canonical_name: MRO
+  category: US Energy
+  country: US
+  section: 1.4
+  sector: Energy
+  yahoo_ticker: MRO
+MRVL:
+  asset_type: Equity
+  canonical_name: MRVL
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: MRVL
+MS:
+  asset_type: Equity
+  canonical_name: MS
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: MS
+MSCI:
+  asset_type: Equity
+  canonical_name: MSCI
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: MSCI
+MSFT:
+  asset_type: Equity
+  canonical_name: MSFT
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: MSFT
+MSTR:
+  asset_type: Equity
+  canonical_name: MSTR
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: MSTR
+MTB:
+  asset_type: Equity
+  canonical_name: MTB
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: MTB
+MTUM:
+  asset_type: ETF
+  canonical_name: MTUM
+  category: ETFs - Factor
+  country: US
+  section: 1.7
+  sector: ETFs - Factor
+  yahoo_ticker: MTUM
+MU:
+  asset_type: Equity
+  canonical_name: MU
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: MU
+MUB:
+  asset_type: Bond/Rate
+  canonical_name: MUB
+  category: Macro - Bonds
+  country: US
+  section: 1.8
+  sector: Macro - Bonds
+  yahoo_ticker: MUB
+MUTHOOTFIN:
+  asset_type: Equity
+  canonical_name: MUTHOOTFIN
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: MUTHOOTFIN.NS
+NAZARA:
+  asset_type: Equity
+  canonical_name: NAZARA
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Technology
+  yahoo_ticker: NAZARA.NS
+NDAQ:
+  asset_type: Equity
+  canonical_name: NDAQ
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: NDAQ
+NEE:
+  asset_type: Equity
+  canonical_name: NEE
+  category: Utilities
+  country: US
+  section: 1.5
+  sector: Utilities
+  yahoo_ticker: NEE
+NEM:
+  asset_type: Equity
+  canonical_name: NEM
+  category: Materials
+  country: US
+  section: 1.5
+  sector: Materials
+  yahoo_ticker: NEM
+NESTLEIND:
+  asset_type: Equity
+  canonical_name: NESTLEIND
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Consumer Staples
+  yahoo_ticker: NESTLEIND.NS
+NET:
+  asset_type: Equity
+  canonical_name: NET
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: NET
+NFLX:
+  asset_type: Equity
+  canonical_name: NFLX
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Communication Services
+  yahoo_ticker: NFLX
+NFTY:
+  asset_type: ETF
+  canonical_name: NFTY
+  category: ETFs - Country
+  country: US
+  section: 1.7
+  sector: ETFs - Country
+  yahoo_ticker: NFTY
+NHPC:
+  asset_type: Equity
+  canonical_name: NHPC
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Utilities
+  yahoo_ticker: NHPC.NS
+NI:
+  asset_type: Equity
+  canonical_name: NI
+  category: Utilities
+  country: US
+  section: 1.5
+  sector: Utilities
+  yahoo_ticker: NI
+NKE:
+  asset_type: Equity
+  canonical_name: NKE
+  category: Consumer Discretionary
+  country: US
+  section: 1.5
+  sector: Consumer Discretionary
+  yahoo_ticker: NKE
+NMDC:
+  asset_type: Equity
+  canonical_name: NMDC
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Materials
+  yahoo_ticker: NMDC.NS
+NNN:
+  asset_type: Equity
+  canonical_name: NNN
+  category: Real Estate
+  country: US
+  section: 1.5
+  sector: Real Estate
+  yahoo_ticker: NNN
+NOC:
+  asset_type: Equity
+  canonical_name: NOC
+  category: Industrials
+  country: US
+  section: 1.5
+  sector: Industrials
+  yahoo_ticker: NOC
+NOV:
+  asset_type: Equity
+  canonical_name: NOV
+  category: US Energy
+  country: US
+  section: 1.4
+  sector: Energy
+  yahoo_ticker: NOV
+NOW:
+  asset_type: Equity
+  canonical_name: NOW
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: NOW
+NSC:
+  asset_type: Equity
+  canonical_name: NSC
+  category: Industrials
+  country: US
+  section: 1.5
+  sector: Industrials
+  yahoo_ticker: NSC
+NTPC:
+  asset_type: Equity
+  canonical_name: NTPC
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Utilities
+  yahoo_ticker: NTPC.NS
+NUE:
+  asset_type: Equity
+  canonical_name: NUE
+  category: Materials
+  country: US
+  section: 1.5
+  sector: Materials
+  yahoo_ticker: NUE
+NVAX:
+  asset_type: Equity
+  canonical_name: NVAX
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: NVAX
+NVDA:
+  asset_type: Equity
+  canonical_name: NVDA
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: NVDA
+NYKAA:
+  asset_type: Equity
+  canonical_name: NYKAA
+  category: India Equities
+  country: IN
+  notes: Yahoo ticker may differ — verify before bulk download
+  section: 1.6
+  sector: Consumer Discretionary
+  verify_yahoo: true
+  yahoo_ticker: NYKAA.NS
+O:
+  asset_type: Equity
+  canonical_name: O
+  category: Real Estate
+  country: US
+  section: 1.5
+  sector: Real Estate
+  yahoo_ticker: O
+OKTA:
+  asset_type: Equity
+  canonical_name: OKTA
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: OKTA
+ONGC:
+  asset_type: Equity
+  canonical_name: ONGC
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Energy
+  yahoo_ticker: ONGC.NS
+ORCL:
+  asset_type: Equity
+  canonical_name: ORCL
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: ORCL
+ORLY:
+  asset_type: Equity
+  canonical_name: ORLY
+  category: Consumer Discretionary
+  country: US
+  section: 1.5
+  sector: Consumer Discretionary
+  yahoo_ticker: ORLY
+OTIS:
+  asset_type: Equity
+  canonical_name: OTIS
+  category: Industrials
+  country: US
+  section: 1.5
+  sector: Industrials
+  yahoo_ticker: OTIS
+OXY:
+  asset_type: Equity
+  canonical_name: OXY
+  category: US Energy
+  country: US
+  section: 1.4
+  sector: Energy
+  yahoo_ticker: OXY
+PALL:
+  asset_type: Commodity
+  canonical_name: PALL
+  category: Macro - Commodities
+  country: Global
+  section: 1.8
+  sector: Macro - Commodities
+  yahoo_ticker: PALL
+PANW:
+  asset_type: Equity
+  canonical_name: PANW
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: PANW
+PAYTM:
+  asset_type: Equity
+  canonical_name: PAYTM
+  category: India Equities
+  country: IN
+  notes: Yahoo ticker may differ — verify before bulk download
+  section: 1.6
+  sector: Financials
+  verify_yahoo: true
+  yahoo_ticker: PAYTM.NS
+PCG:
+  asset_type: Equity
+  canonical_name: PCG
+  category: Utilities
+  country: US
+  section: 1.5
+  sector: Utilities
+  yahoo_ticker: PCG
+PDBC:
+  asset_type: Commodity
+  canonical_name: PDBC
+  category: Macro - Commodities
+  country: Global
+  section: 1.8
+  sector: Macro - Commodities
+  yahoo_ticker: PDBC
+PEP:
+  asset_type: Equity
+  canonical_name: PEP
+  category: Consumer Staples
+  country: US
+  section: 1.5
+  sector: Consumer Staples
+  yahoo_ticker: PEP
+PERSISTENT:
+  asset_type: Equity
+  canonical_name: PERSISTENT
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Technology
+  yahoo_ticker: PERSISTENT.NS
+PETRONET:
+  asset_type: Equity
+  canonical_name: PETRONET
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Energy
+  yahoo_ticker: PETRONET.NS
+PFC:
+  asset_type: Equity
+  canonical_name: PFC
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: PFC.NS
+PFE:
+  asset_type: Equity
+  canonical_name: PFE
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: PFE
+PFIZER:
+  asset_type: Equity
+  canonical_name: PFIZER
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Healthcare
+  yahoo_ticker: PFIZER.NS
+PG:
+  asset_type: Equity
+  canonical_name: PG
+  category: Consumer Staples
+  country: US
+  section: 1.5
+  sector: Consumer Staples
+  yahoo_ticker: PG
+PH:
+  asset_type: Equity
+  canonical_name: PH
+  category: Industrials
+  country: US
+  section: 1.5
+  sector: Industrials
+  yahoo_ticker: PH
+PIDILITIND:
+  asset_type: Equity
+  canonical_name: PIDILITIND
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Materials
+  yahoo_ticker: PIDILITIND.NS
+PIIND:
+  asset_type: Equity
+  canonical_name: PIIND
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Materials
+  yahoo_ticker: PIIND.NS
+PKG:
+  asset_type: Equity
+  canonical_name: PKG
+  category: Materials
+  country: US
+  section: 1.5
+  sector: Materials
+  yahoo_ticker: PKG
+PLD:
+  asset_type: Equity
+  canonical_name: PLD
+  category: Real Estate
+  country: US
+  section: 1.5
+  sector: Real Estate
+  yahoo_ticker: PLD
+PLTR:
+  asset_type: Equity
+  canonical_name: PLTR
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: PLTR
+PM:
+  asset_type: Equity
+  canonical_name: PM
+  category: Consumer Staples
+  country: US
+  section: 1.5
+  sector: Consumer Staples
+  yahoo_ticker: PM
+PNB:
+  asset_type: Equity
+  canonical_name: PNB
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: PNB.NS
+PNBHOUSING:
+  asset_type: Equity
+  canonical_name: PNBHOUSING
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: PNBHOUSING.NS
+PNC:
+  asset_type: Equity
+  canonical_name: PNC
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: PNC
+PNW:
+  asset_type: Equity
+  canonical_name: PNW
+  category: Utilities
+  country: US
+  section: 1.5
+  sector: Utilities
+  yahoo_ticker: PNW
+PODD:
+  asset_type: Equity
+  canonical_name: PODD
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: PODD
+POLICYBZR:
+  asset_type: Equity
+  canonical_name: POLICYBZR
+  category: India Equities
+  country: IN
+  notes: Yahoo ticker may differ — verify before bulk download
+  section: 1.6
+  sector: Financials
+  verify_yahoo: true
+  yahoo_ticker: POLICYBZR.NS
+POWERGRID:
+  asset_type: Equity
+  canonical_name: POWERGRID
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Utilities
+  yahoo_ticker: POWERGRID.NS
+PPG:
+  asset_type: Equity
+  canonical_name: PPG
+  category: Materials
+  country: US
+  section: 1.5
+  sector: Materials
+  yahoo_ticker: PPG
+PPL:
+  asset_type: Equity
+  canonical_name: PPL
+  category: Utilities
+  country: US
+  section: 1.5
+  sector: Utilities
+  yahoo_ticker: PPL
+PPLT:
+  asset_type: Commodity
+  canonical_name: PPLT
+  category: Macro - Commodities
+  country: Global
+  section: 1.8
+  sector: Macro - Commodities
+  yahoo_ticker: PPLT
+PRU:
+  asset_type: Equity
+  canonical_name: PRU
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: PRU
+PSA:
+  asset_type: Equity
+  canonical_name: PSA
+  category: Real Estate
+  country: US
+  section: 1.5
+  sector: Real Estate
+  yahoo_ticker: PSA
+PSX:
+  asset_type: Equity
+  canonical_name: PSX
+  category: US Energy
+  country: US
+  section: 1.4
+  sector: Energy
+  yahoo_ticker: PSX
+PXD:
+  asset_type: Equity
+  canonical_name: PXD
+  category: US Energy
+  country: US
+  section: 1.4
+  sector: Energy
+  yahoo_ticker: PXD
+PYPL:
+  asset_type: Equity
+  canonical_name: PYPL
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Financials
+  yahoo_ticker: PYPL
+QCOM:
+  asset_type: Equity
+  canonical_name: QCOM
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: QCOM
+QQQ:
+  asset_type: ETF
+  canonical_name: QQQ
+  category: ETFs - Broad Market
+  country: US
+  section: 1.7
+  sector: ETFs - Broad Market
+  yahoo_ticker: QQQ
+QUAL:
+  asset_type: ETF
+  canonical_name: QUAL
+  category: ETFs - Factor
+  country: US
+  section: 1.7
+  sector: ETFs - Factor
+  yahoo_ticker: QUAL
+RAILTEL:
+  asset_type: Equity
+  canonical_name: RAILTEL
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Communication Services
+  yahoo_ticker: RAILTEL.NS
+RAMCOCEM:
+  asset_type: Equity
+  canonical_name: RAMCOCEM
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Materials
+  yahoo_ticker: RAMCOCEM.NS
+RBLX:
+  asset_type: Equity
+  canonical_name: RBLX
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: RBLX
+RCL:
+  asset_type: Equity
+  canonical_name: RCL
+  category: Consumer Discretionary
+  country: US
+  section: 1.5
+  sector: Consumer Discretionary
+  yahoo_ticker: RCL
+RECLTD:
+  asset_type: Equity
+  canonical_name: RECLTD
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: RECLTD.NS
+REGN:
+  asset_type: Equity
+  canonical_name: REGN
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: REGN
+RELAXO:
+  asset_type: Equity
+  canonical_name: RELAXO
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Consumer Discretionary
+  yahoo_ticker: RELAXO.NS
+RELIANCE:
+  asset_type: Equity
+  canonical_name: RELIANCE
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Energy
+  yahoo_ticker: RELIANCE.NS
+RF:
+  asset_type: Equity
+  canonical_name: RF
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: RF
+RJF:
+  asset_type: Equity
+  canonical_name: RJF
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: RJF
+RMD:
+  asset_type: Equity
+  canonical_name: RMD
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: RMD
+ROBO:
+  asset_type: ETF
+  canonical_name: ROBO
+  category: ETFs - Thematic
+  country: US
+  section: 1.7
+  sector: ETFs - Thematic
+  yahoo_ticker: ROBO
+ROK:
+  asset_type: Equity
+  canonical_name: ROK
+  category: Industrials
+  country: US
+  section: 1.5
+  sector: Industrials
+  yahoo_ticker: ROK
+ROP:
+  asset_type: Equity
+  canonical_name: ROP
+  category: Industrials
+  country: US
+  section: 1.5
+  sector: Industrials
+  yahoo_ticker: ROP
+ROST:
+  asset_type: Equity
+  canonical_name: ROST
+  category: Consumer Discretionary
+  country: US
+  section: 1.5
+  sector: Consumer Discretionary
+  yahoo_ticker: ROST
+RRC:
+  asset_type: Equity
+  canonical_name: RRC
+  category: US Energy
+  country: US
+  section: 1.4
+  sector: Energy
+  yahoo_ticker: RRC
+RSG:
+  asset_type: Equity
+  canonical_name: RSG
+  category: Industrials
+  country: US
+  section: 1.5
+  sector: Industrials
+  yahoo_ticker: RSG
+RSP:
+  asset_type: ETF
+  canonical_name: RSP
+  category: ETFs - Factor
+  country: US
+  section: 1.7
+  sector: ETFs - Factor
+  yahoo_ticker: RSP
+RTX:
+  asset_type: Equity
+  canonical_name: RTX
+  category: Industrials
+  country: US
+  section: 1.5
+  sector: Industrials
+  yahoo_ticker: RTX
+SAIC:
+  asset_type: Equity
+  canonical_name: SAIC
+  category: Industrials
+  country: US
+  section: 1.5
+  sector: Industrials
+  yahoo_ticker: SAIC
+SAP:
+  asset_type: Equity
+  canonical_name: SAP
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: SAP
+SBICARD:
+  asset_type: Equity
+  canonical_name: SBICARD
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: SBICARD.NS
+SBILIFE:
+  asset_type: Equity
+  canonical_name: SBILIFE
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: SBILIFE.NS
+SBIN:
+  asset_type: Equity
+  canonical_name: SBIN
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: SBIN.NS
+SBUX:
+  asset_type: Equity
+  canonical_name: SBUX
+  category: Consumer Discretionary
+  country: US
+  section: 1.5
+  sector: Consumer Discretionary
+  yahoo_ticker: SBUX
+SCHD:
+  asset_type: ETF
+  canonical_name: SCHD
+  category: ETFs - Broad Market
+  country: US
+  section: 1.7
+  sector: ETFs - Broad Market
+  yahoo_ticker: SCHD
+SCHW:
+  asset_type: Equity
+  canonical_name: SCHW
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: SCHW
+SHREECEM:
+  asset_type: Equity
+  canonical_name: SHREECEM
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Materials
+  yahoo_ticker: SHREECEM.NS
+SHW:
+  asset_type: Equity
+  canonical_name: SHW
+  category: Materials
+  country: US
+  section: 1.5
+  sector: Materials
+  yahoo_ticker: SHW
+SHY:
+  asset_type: Bond/Rate
+  canonical_name: SHY
+  category: Macro - Bonds
+  country: US
+  section: 1.8
+  sector: Macro - Bonds
+  yahoo_ticker: SHY
+SIZE:
+  asset_type: ETF
+  canonical_name: SIZE
+  category: ETFs - Factor
+  country: US
+  section: 1.7
+  sector: ETFs - Factor
+  yahoo_ticker: SIZE
+SJM:
+  asset_type: Equity
+  canonical_name: SJM
+  category: Consumer Staples
+  country: US
+  section: 1.5
+  sector: Consumer Staples
+  yahoo_ticker: SJM
+SJVN:
+  asset_type: Equity
+  canonical_name: SJVN
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Utilities
+  yahoo_ticker: SJVN.NS
+SKYY:
+  asset_type: ETF
+  canonical_name: SKYY
+  category: ETFs - Thematic
+  country: US
+  section: 1.7
+  sector: ETFs - Thematic
+  yahoo_ticker: SKYY
+SLB:
+  asset_type: Equity
+  canonical_name: SLB
+  category: US Energy
+  country: US
+  section: 1.4
+  sector: Energy
+  yahoo_ticker: SLB
+SLV:
+  asset_type: Commodity
+  canonical_name: SLV
+  category: Macro - Commodities
+  country: Global
+  section: 1.8
+  sector: Macro - Commodities
+  yahoo_ticker: SLV
+SM:
+  asset_type: Equity
+  canonical_name: SM
+  category: US Energy
+  country: US
+  section: 1.4
+  sector: Energy
+  yahoo_ticker: SM
+SMCI:
+  asset_type: Equity
+  canonical_name: SMCI
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: SMCI
+SMH:
+  asset_type: ETF
+  canonical_name: SMH
+  category: ETFs - Thematic
+  country: US
+  section: 1.7
+  sector: ETFs - Thematic
+  yahoo_ticker: SMH
+SNOW:
+  asset_type: Equity
+  canonical_name: SNOW
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: SNOW
+SO:
+  asset_type: Equity
+  canonical_name: SO
+  category: Utilities
+  country: US
+  section: 1.5
+  sector: Utilities
+  yahoo_ticker: SO
+SOL-USD:
+  asset_type: Crypto
+  canonical_name: SOL-USD
+  category: Macro - Crypto
+  country: Global
+  section: 1.8
+  sector: Macro - Crypto
+  yahoo_ticker: SOL-USD
+SOXX:
+  asset_type: ETF
+  canonical_name: SOXX
+  category: ETFs - Thematic
+  country: US
+  section: 1.7
+  sector: ETFs - Thematic
+  yahoo_ticker: SOXX
+SOYB:
+  asset_type: Commodity
+  canonical_name: SOYB
+  category: Macro - Commodities
+  country: Global
+  section: 1.8
+  sector: Macro - Commodities
+  yahoo_ticker: SOYB
+SPG:
+  asset_type: Equity
+  canonical_name: SPG
+  category: Real Estate
+  country: US
+  section: 1.5
+  sector: Real Estate
+  yahoo_ticker: SPG
+SPGI:
+  asset_type: Equity
+  canonical_name: SPGI
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: SPGI
+SPHB:
+  asset_type: ETF
+  canonical_name: SPHB
+  category: ETFs - Factor
+  country: US
+  section: 1.7
+  sector: ETFs - Factor
+  yahoo_ticker: SPHB
+SPLV:
+  asset_type: ETF
+  canonical_name: SPLV
+  category: ETFs - Factor
+  country: US
+  section: 1.7
+  sector: ETFs - Factor
+  yahoo_ticker: SPLV
+SPOT:
+  asset_type: Equity
+  canonical_name: SPOT
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Communication Services
+  yahoo_ticker: SPOT
+SPY:
+  asset_type: ETF
+  canonical_name: SPY
+  category: ETFs - Broad Market
+  country: US
+  section: 1.7
+  sector: ETFs - Broad Market
+  yahoo_ticker: SPY
+SQ:
+  asset_type: Equity
+  canonical_name: SQ
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Financials
+  yahoo_ticker: SQ
+SRE:
+  asset_type: Equity
+  canonical_name: SRE
+  category: Utilities
+  country: US
+  section: 1.5
+  sector: Utilities
+  yahoo_ticker: SRE
+STLTECH:
+  asset_type: Equity
+  canonical_name: STLTECH
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Technology
+  yahoo_ticker: STLTECH.NS
+STT:
+  asset_type: Equity
+  canonical_name: STT
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: STT
+STZ:
+  asset_type: Equity
+  canonical_name: STZ
+  category: Consumer Staples
+  country: US
+  section: 1.5
+  sector: Consumer Staples
+  yahoo_ticker: STZ
+SUNDRMFAST:
+  asset_type: Equity
+  canonical_name: SUNDRMFAST
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Consumer Discretionary
+  yahoo_ticker: SUNDRMFAST.NS
+SUNPHARMA:
+  asset_type: Equity
+  canonical_name: SUNPHARMA
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Healthcare
+  yahoo_ticker: SUNPHARMA.NS
+SUZLON:
+  asset_type: Equity
+  canonical_name: SUZLON
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Utilities
+  yahoo_ticker: SUZLON.NS
+SVXY:
+  asset_type: Volatility
+  canonical_name: SVXY
+  category: Macro - Volatility
+  country: US
+  section: 1.8
+  sector: Macro - Volatility
+  yahoo_ticker: SVXY
+SYF:
+  asset_type: Equity
+  canonical_name: SYF
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: SYF
+SYK:
+  asset_type: Equity
+  canonical_name: SYK
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: SYK
+SYY:
+  asset_type: Equity
+  canonical_name: SYY
+  category: Consumer Staples
+  country: US
+  section: 1.5
+  sector: Consumer Staples
+  yahoo_ticker: SYY
+TAP:
+  asset_type: Equity
+  canonical_name: TAP
+  category: Consumer Staples
+  country: US
+  section: 1.5
+  sector: Consumer Staples
+  yahoo_ticker: TAP
+TATACOMM:
+  asset_type: Equity
+  canonical_name: TATACOMM
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Communication Services
+  yahoo_ticker: TATACOMM.NS
+TATACONSUM:
+  asset_type: Equity
+  canonical_name: TATACONSUM
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Consumer Staples
+  yahoo_ticker: TATACONSUM.NS
+TATAELXSI:
+  asset_type: Equity
+  canonical_name: TATAELXSI
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Technology
+  yahoo_ticker: TATAELXSI.NS
+TATAMOTORS:
+  asset_type: Equity
+  canonical_name: TATAMOTORS
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Consumer Discretionary
+  yahoo_ticker: TATAMOTORS.NS
+TATAPOWER:
+  asset_type: Equity
+  canonical_name: TATAPOWER
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Utilities
+  yahoo_ticker: TATAPOWER.NS
+TATASTEEL:
+  asset_type: Equity
+  canonical_name: TATASTEEL
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Materials
+  yahoo_ticker: TATASTEEL.NS
+TCS:
+  asset_type: Equity
+  canonical_name: TCS
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Technology
+  yahoo_ticker: TCS.NS
+TECHM:
+  asset_type: Equity
+  canonical_name: TECHM
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Technology
+  yahoo_ticker: TECHM.NS
+TFC:
+  asset_type: Equity
+  canonical_name: TFC
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: TFC
+TGT:
+  asset_type: Equity
+  canonical_name: TGT
+  category: Consumer Discretionary
+  country: US
+  section: 1.5
+  sector: Consumer Discretionary
+  yahoo_ticker: TGT
+THERMAX:
+  asset_type: Equity
+  canonical_name: THERMAX
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Industrials
+  yahoo_ticker: THERMAX.NS
+TIINDIA:
+  asset_type: Equity
+  canonical_name: TIINDIA
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Consumer Discretionary
+  yahoo_ticker: TIINDIA.NS
+TIPS:
+  asset_type: Bond/Rate
+  canonical_name: TIPS
+  category: Macro - Bonds
+  country: US
+  section: 1.8
+  sector: Macro - Bonds
+  yahoo_ticker: TIPS
+TITAN:
+  asset_type: Equity
+  canonical_name: TITAN
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Consumer Discretionary
+  yahoo_ticker: TITAN.NS
+TJX:
+  asset_type: Equity
+  canonical_name: TJX
+  category: Consumer Discretionary
+  country: US
+  section: 1.5
+  sector: Consumer Discretionary
+  yahoo_ticker: TJX
+TLT:
+  asset_type: Bond/Rate
+  canonical_name: TLT
+  category: Macro - Bonds
+  country: US
+  section: 1.8
+  sector: Macro - Bonds
+  yahoo_ticker: TLT
+TMO:
+  asset_type: Equity
+  canonical_name: TMO
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: TMO
+TORNTPHARM:
+  asset_type: Equity
+  canonical_name: TORNTPHARM
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Healthcare
+  yahoo_ticker: TORNTPHARM.NS
+TORNTPOWER:
+  asset_type: Equity
+  canonical_name: TORNTPOWER
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Utilities
+  yahoo_ticker: TORNTPOWER.NS
+TRENT:
+  asset_type: Equity
+  canonical_name: TRENT
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Consumer Discretionary
+  yahoo_ticker: TRENT.NS
+TROW:
+  asset_type: Equity
+  canonical_name: TROW
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: TROW
+TSCO:
+  asset_type: Equity
+  canonical_name: TSCO
+  category: Consumer Discretionary
+  country: US
+  section: 1.5
+  sector: Consumer Discretionary
+  yahoo_ticker: TSCO
+TSLA:
+  asset_type: Equity
+  canonical_name: TSLA
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Consumer Discretionary
+  yahoo_ticker: TSLA
+TSMC:
+  asset_type: Equity
+  canonical_name: TSMC
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: TSMC
+TSN:
+  asset_type: Equity
+  canonical_name: TSN
+  category: Consumer Staples
+  country: US
+  section: 1.5
+  sector: Consumer Staples
+  yahoo_ticker: TSN
+TTD:
+  asset_type: Equity
+  canonical_name: TTD
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: TTD
+TXN:
+  asset_type: Equity
+  canonical_name: TXN
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: TXN
+UAL:
+  asset_type: Equity
+  canonical_name: UAL
+  category: Consumer Discretionary
+  country: US
+  section: 1.5
+  sector: Consumer Discretionary
+  yahoo_ticker: UAL
+UBER:
+  asset_type: Equity
+  canonical_name: UBER
+  category: Consumer Discretionary
+  country: US
+  section: 1.5
+  sector: Consumer Discretionary
+  yahoo_ticker: UBER
+ULTRACEMCO:
+  asset_type: Equity
+  canonical_name: ULTRACEMCO
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Materials
+  yahoo_ticker: ULTRACEMCO.NS
+UNG:
+  asset_type: Commodity
+  canonical_name: UNG
+  category: Macro - Commodities
+  country: Global
+  section: 1.8
+  sector: Macro - Commodities
+  yahoo_ticker: UNG
+UNH:
+  asset_type: Equity
+  canonical_name: UNH
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: UNH
+UNIONBANK:
+  asset_type: Equity
+  canonical_name: UNIONBANK
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Financials
+  yahoo_ticker: UNIONBANK.NS
+UNP:
+  asset_type: Equity
+  canonical_name: UNP
+  category: Industrials
+  country: US
+  section: 1.5
+  sector: Industrials
+  yahoo_ticker: UNP
+UPL:
+  asset_type: Equity
+  canonical_name: UPL
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Materials
+  yahoo_ticker: UPL.NS
+UPS:
+  asset_type: Equity
+  canonical_name: UPS
+  category: Industrials
+  country: US
+  section: 1.5
+  sector: Industrials
+  yahoo_ticker: UPS
+USB:
+  asset_type: Equity
+  canonical_name: USB
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: USB
+USDINR:
+  asset_type: FX
+  canonical_name: USDINR
+  category: Macro - FX
+  country: Global
+  section: 1.8
+  sector: Macro - FX
+  yahoo_ticker: USDINR
+USMV:
+  asset_type: ETF
+  canonical_name: USMV
+  category: ETFs - Factor
+  country: US
+  section: 1.7
+  sector: ETFs - Factor
+  yahoo_ticker: USMV
+USO:
+  asset_type: Commodity
+  canonical_name: USO
+  category: Macro - Commodities
+  country: Global
+  section: 1.8
+  sector: Macro - Commodities
+  yahoo_ticker: USO
+UUP:
+  asset_type: FX
+  canonical_name: UUP
+  category: Macro - FX
+  country: Global
+  section: 1.8
+  sector: Macro - FX
+  yahoo_ticker: UUP
+UVXY:
+  asset_type: Volatility
+  canonical_name: UVXY
+  category: Macro - Volatility
+  country: US
+  section: 1.8
+  sector: Macro - Volatility
+  yahoo_ticker: UVXY
+V:
+  asset_type: Equity
+  canonical_name: V
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: V
+VARUNBEV:
+  asset_type: Equity
+  canonical_name: VARUNBEV
+  category: India Equities
+  country: IN
+  notes: Yahoo ticker may differ — verify before bulk download
+  section: 1.6
+  sector: Consumer Staples
+  verify_yahoo: true
+  yahoo_ticker: VBL.NS
+VEDL:
+  asset_type: Equity
+  canonical_name: VEDL
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Materials
+  yahoo_ticker: VEDL.NS
+VICI:
+  asset_type: Equity
+  canonical_name: VICI
+  category: Real Estate
+  country: US
+  section: 1.5
+  sector: Real Estate
+  yahoo_ticker: VICI
+VIG:
+  asset_type: ETF
+  canonical_name: VIG
+  category: ETFs - Broad Market
+  country: US
+  section: 1.7
+  sector: ETFs - Broad Market
+  yahoo_ticker: VIG
+VIXY:
+  asset_type: Volatility
+  canonical_name: VIXY
+  category: Macro - Volatility
+  country: US
+  section: 1.8
+  sector: Macro - Volatility
+  yahoo_ticker: VIXY
+VLO:
+  asset_type: Equity
+  canonical_name: VLO
+  category: US Energy
+  country: US
+  section: 1.4
+  sector: Energy
+  yahoo_ticker: VLO
+VLUE:
+  asset_type: ETF
+  canonical_name: VLUE
+  category: ETFs - Factor
+  country: US
+  section: 1.7
+  sector: ETFs - Factor
+  yahoo_ticker: VLUE
+VMC:
+  asset_type: Equity
+  canonical_name: VMC
+  category: Materials
+  country: US
+  section: 1.5
+  sector: Materials
+  yahoo_ticker: VMC
+VOLTAS:
+  asset_type: Equity
+  canonical_name: VOLTAS
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Industrials
+  yahoo_ticker: VOLTAS.NS
+VRSK:
+  asset_type: Equity
+  canonical_name: VRSK
+  category: Industrials
+  country: US
+  section: 1.5
+  sector: Industrials
+  yahoo_ticker: VRSK
+VRTX:
+  asset_type: Equity
+  canonical_name: VRTX
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: VRTX
+VTI:
+  asset_type: ETF
+  canonical_name: VTI
+  category: ETFs - Broad Market
+  country: US
+  section: 1.7
+  sector: ETFs - Broad Market
+  yahoo_ticker: VTI
+VTR:
+  asset_type: Equity
+  canonical_name: VTR
+  category: Real Estate
+  country: US
+  section: 1.5
+  sector: Real Estate
+  yahoo_ticker: VTR
+VWO:
+  asset_type: ETF
+  canonical_name: VWO
+  category: ETFs - Country
+  country: US
+  section: 1.7
+  sector: ETFs - Country
+  yahoo_ticker: VWO
+VXX:
+  asset_type: Volatility
+  canonical_name: VXX
+  category: Macro - Volatility
+  country: US
+  section: 1.8
+  sector: Macro - Volatility
+  yahoo_ticker: VXX
+VYM:
+  asset_type: ETF
+  canonical_name: VYM
+  category: ETFs - Broad Market
+  country: US
+  section: 1.7
+  sector: ETFs - Broad Market
+  yahoo_ticker: VYM
+WCLD:
+  asset_type: ETF
+  canonical_name: WCLD
+  category: ETFs - Thematic
+  country: US
+  section: 1.7
+  sector: ETFs - Thematic
+  yahoo_ticker: WCLD
+WDAY:
+  asset_type: Equity
+  canonical_name: WDAY
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: WDAY
+WEAT:
+  asset_type: Commodity
+  canonical_name: WEAT
+  category: Macro - Commodities
+  country: Global
+  section: 1.8
+  sector: Macro - Commodities
+  yahoo_ticker: WEAT
+WEC:
+  asset_type: Equity
+  canonical_name: WEC
+  category: Utilities
+  country: US
+  section: 1.5
+  sector: Utilities
+  yahoo_ticker: WEC
+WELL:
+  asset_type: Equity
+  canonical_name: WELL
+  category: Real Estate
+  country: US
+  section: 1.5
+  sector: Real Estate
+  yahoo_ticker: WELL
+WFC:
+  asset_type: Equity
+  canonical_name: WFC
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: WFC
+WIPRO:
+  asset_type: Equity
+  canonical_name: WIPRO
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Technology
+  yahoo_ticker: WIPRO.NS
+WM:
+  asset_type: Equity
+  canonical_name: WM
+  category: Industrials
+  country: US
+  section: 1.5
+  sector: Industrials
+  yahoo_ticker: WM
+WMB:
+  asset_type: Equity
+  canonical_name: WMB
+  category: US Energy
+  country: US
+  section: 1.4
+  sector: Energy
+  yahoo_ticker: WMB
+WMT:
+  asset_type: Equity
+  canonical_name: WMT
+  category: Consumer Staples
+  country: US
+  section: 1.5
+  sector: Consumer Staples
+  yahoo_ticker: WMT
+WPC:
+  asset_type: Equity
+  canonical_name: WPC
+  category: Real Estate
+  country: US
+  section: 1.5
+  sector: Real Estate
+  yahoo_ticker: WPC
+WTW:
+  asset_type: Equity
+  canonical_name: WTW
+  category: US Financials
+  country: US
+  section: 1.2
+  sector: Financials
+  yahoo_ticker: WTW
+WYNN:
+  asset_type: Equity
+  canonical_name: WYNN
+  category: Consumer Discretionary
+  country: US
+  section: 1.5
+  sector: Consumer Discretionary
+  yahoo_ticker: WYNN
+XLB:
+  asset_type: ETF
+  canonical_name: XLB
+  category: ETFs - Sector
+  country: US
+  section: 1.7
+  sector: ETFs - Sector
+  yahoo_ticker: XLB
+XLC:
+  asset_type: ETF
+  canonical_name: XLC
+  category: ETFs - Sector
+  country: US
+  section: 1.7
+  sector: ETFs - Sector
+  yahoo_ticker: XLC
+XLE:
+  asset_type: ETF
+  canonical_name: XLE
+  category: ETFs - Sector
+  country: US
+  section: 1.7
+  sector: ETFs - Sector
+  yahoo_ticker: XLE
+XLF:
+  asset_type: ETF
+  canonical_name: XLF
+  category: ETFs - Sector
+  country: US
+  section: 1.7
+  sector: ETFs - Sector
+  yahoo_ticker: XLF
+XLI:
+  asset_type: ETF
+  canonical_name: XLI
+  category: ETFs - Sector
+  country: US
+  section: 1.7
+  sector: ETFs - Sector
+  yahoo_ticker: XLI
+XLK:
+  asset_type: ETF
+  canonical_name: XLK
+  category: ETFs - Sector
+  country: US
+  section: 1.7
+  sector: ETFs - Sector
+  yahoo_ticker: XLK
+XLP:
+  asset_type: ETF
+  canonical_name: XLP
+  category: ETFs - Sector
+  country: US
+  section: 1.7
+  sector: ETFs - Sector
+  yahoo_ticker: XLP
+XLRE:
+  asset_type: ETF
+  canonical_name: XLRE
+  category: ETFs - Sector
+  country: US
+  section: 1.7
+  sector: ETFs - Sector
+  yahoo_ticker: XLRE
+XLU:
+  asset_type: ETF
+  canonical_name: XLU
+  category: ETFs - Sector
+  country: US
+  section: 1.7
+  sector: ETFs - Sector
+  yahoo_ticker: XLU
+XLV:
+  asset_type: ETF
+  canonical_name: XLV
+  category: ETFs - Sector
+  country: US
+  section: 1.7
+  sector: ETFs - Sector
+  yahoo_ticker: XLV
+XLY:
+  asset_type: ETF
+  canonical_name: XLY
+  category: ETFs - Sector
+  country: US
+  section: 1.7
+  sector: ETFs - Sector
+  yahoo_ticker: XLY
+XOM:
+  asset_type: Equity
+  canonical_name: XOM
+  category: US Energy
+  country: US
+  section: 1.4
+  sector: Energy
+  yahoo_ticker: XOM
+XRP-USD:
+  asset_type: Crypto
+  canonical_name: XRP-USD
+  category: Macro - Crypto
+  country: Global
+  section: 1.8
+  sector: Macro - Crypto
+  yahoo_ticker: XRP-USD
+XYL:
+  asset_type: Equity
+  canonical_name: XYL
+  category: Industrials
+  country: US
+  section: 1.5
+  sector: Industrials
+  yahoo_ticker: XYL
+YUM:
+  asset_type: Equity
+  canonical_name: YUM
+  category: Consumer Discretionary
+  country: US
+  section: 1.5
+  sector: Consumer Discretionary
+  yahoo_ticker: YUM
+ZM:
+  asset_type: Equity
+  canonical_name: ZM
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: ZM
+ZOMATO:
+  asset_type: Equity
+  canonical_name: ZOMATO
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Consumer Discretionary
+  yahoo_ticker: ZOMATO.NS
+ZS:
+  asset_type: Equity
+  canonical_name: ZS
+  category: US Mega Cap Tech
+  country: US
+  section: 1.1
+  sector: Technology
+  yahoo_ticker: ZS
+ZTS:
+  asset_type: Equity
+  canonical_name: ZTS
+  category: US Healthcare
+  country: US
+  section: 1.3
+  sector: Healthcare
+  yahoo_ticker: ZTS
+ZYDUSLIFE:
+  asset_type: Equity
+  canonical_name: ZYDUSLIFE
+  category: India Equities
+  country: IN
+  section: 1.6
+  sector: Healthcare
+  yahoo_ticker: ZYDUSLIFE.NS
+^FVX:
+  asset_type: Bond/Rate
+  canonical_name: ^FVX
+  category: Macro - Rates
+  country: US
+  section: 1.8
+  sector: Macro - Rates
+  yahoo_ticker: ^FVX
+^IRX:
+  asset_type: Bond/Rate
+  canonical_name: ^IRX
+  category: Macro - Rates
+  country: US
+  section: 1.8
+  sector: Macro - Rates
+  yahoo_ticker: ^IRX
+^MOVE:
+  asset_type: Bond/Rate
+  canonical_name: ^MOVE
+  category: Macro - Rates
+  country: US
+  section: 1.8
+  sector: Macro - Rates
+  yahoo_ticker: ^MOVE
+^TNX:
+  asset_type: Bond/Rate
+  canonical_name: ^TNX
+  category: Macro - Rates
+  country: US
+  section: 1.8
+  sector: Macro - Rates
+  yahoo_ticker: ^TNX
+^TYX:
+  asset_type: Bond/Rate
+  canonical_name: ^TYX
+  category: Macro - Rates
+  country: US
+  section: 1.8
+  sector: Macro - Rates
+  yahoo_ticker: ^TYX
+^VIX:
+  asset_type: Volatility
+  canonical_name: ^VIX
+  category: Macro - Volatility
+  country: US
+  section: 1.8
+  sector: Macro - Volatility
+  yahoo_ticker: ^VIX
+^VVIX:
+  asset_type: Volatility
+  canonical_name: ^VVIX
+  category: Macro - Volatility
+  country: US
+  section: 1.8
+  sector: Macro - Volatility
+  yahoo_ticker: ^VVIX

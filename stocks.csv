@@ -1,0 +1,602 @@
+#,Ticker,Section,Category
+1,AAPL,1.1,US Mega Cap Tech
+2,MSFT,1.1,US Mega Cap Tech
+3,NVDA,1.1,US Mega Cap Tech
+4,GOOGL,1.1,US Mega Cap Tech
+5,AMZN,1.1,US Mega Cap Tech
+6,META,1.1,US Mega Cap Tech
+7,TSLA,1.1,US Mega Cap Tech
+8,AVGO,1.1,US Mega Cap Tech
+9,ORCL,1.1,US Mega Cap Tech
+10,CRM,1.1,US Mega Cap Tech
+11,ADBE,1.1,US Mega Cap Tech
+12,AMD,1.1,US Mega Cap Tech
+13,INTC,1.1,US Mega Cap Tech
+14,QCOM,1.1,US Mega Cap Tech
+15,TXN,1.1,US Mega Cap Tech
+16,NOW,1.1,US Mega Cap Tech
+17,PANW,1.1,US Mega Cap Tech
+18,AMAT,1.1,US Mega Cap Tech
+19,LRCX,1.1,US Mega Cap Tech
+20,KLAC,1.1,US Mega Cap Tech
+21,JPM,1.2,US Financials
+22,BAC,1.2,US Financials
+23,WFC,1.2,US Financials
+24,GS,1.2,US Financials
+25,MS,1.2,US Financials
+26,C,1.2,US Financials
+27,USB,1.2,US Financials
+28,PNC,1.2,US Financials
+29,AXP,1.2,US Financials
+30,V,1.2,US Financials
+31,MA,1.2,US Financials
+32,BLK,1.2,US Financials
+33,SCHW,1.2,US Financials
+34,COF,1.2,US Financials
+35,CB,1.2,US Financials
+36,MET,1.2,US Financials
+37,PRU,1.2,US Financials
+38,ICE,1.2,US Financials
+39,CME,1.2,US Financials
+40,SPGI,1.2,US Financials
+41,JNJ,1.3,US Healthcare
+42,UNH,1.3,US Healthcare
+43,LLY,1.3,US Healthcare
+44,ABBV,1.3,US Healthcare
+45,MRK,1.3,US Healthcare
+46,PFE,1.3,US Healthcare
+47,TMO,1.3,US Healthcare
+48,ABT,1.3,US Healthcare
+49,DHR,1.3,US Healthcare
+50,MDT,1.3,US Healthcare
+51,ISRG,1.3,US Healthcare
+52,SYK,1.3,US Healthcare
+53,BMY,1.3,US Healthcare
+54,AMGN,1.3,US Healthcare
+55,GILD,1.3,US Healthcare
+56,REGN,1.3,US Healthcare
+57,VRTX,1.3,US Healthcare
+58,CVS,1.3,US Healthcare
+59,CI,1.3,US Healthcare
+60,HUM,1.3,US Healthcare
+61,XOM,1.4,US Energy
+62,CVX,1.4,US Energy
+63,COP,1.4,US Energy
+64,EOG,1.4,US Energy
+65,SLB,1.4,US Energy
+66,PSX,1.4,US Energy
+67,MPC,1.4,US Energy
+68,VLO,1.4,US Energy
+69,OXY,1.4,US Energy
+70,PXD,1.4,US Energy
+71,HAL,1.4,US Energy (Halliburton)
+72,KMI,1.4,US Energy
+73,WMB,1.4,US Energy
+74,DVN,1.4,US Energy
+75,FANG,1.4,US Energy
+76,BA,1.5,Industrials
+77,CAT,1.5,Industrials
+78,HON,1.5,Industrials
+79,GE,1.5,Industrials
+80,MMM,1.5,Industrials
+81,RTX,1.5,Industrials
+82,LMT,1.5,Industrials
+83,NOC,1.5,Industrials
+84,UPS,1.5,Industrials
+85,FDX,1.5,Industrials
+86,CSX,1.5,Industrials
+87,UNP,1.5,Industrials
+88,NSC,1.5,Industrials
+89,DE,1.5,Industrials
+90,EMR,1.5,Industrials
+91,ETN,1.5,Industrials
+92,PH,1.5,Industrials
+93,ROK,1.5,Industrials
+94,ITW,1.5,Industrials
+95,DOV,1.5,Industrials
+96,HD,1.5,Consumer Discretionary
+97,MCD,1.5,Consumer Discretionary
+98,SBUX,1.5,Consumer Discretionary
+99,NKE,1.5,Consumer Discretionary
+100,TJX,1.5,Consumer Discretionary
+101,ROST,1.5,Consumer Discretionary
+102,LOW,1.5,Consumer Discretionary
+103,TGT,1.5,Consumer Discretionary
+104,BKNG,1.5,Consumer Discretionary
+105,MAR,1.5,Consumer Discretionary
+106,HLT,1.5,Consumer Discretionary
+107,YUM,1.5,Consumer Discretionary
+108,DRI,1.5,Consumer Discretionary
+109,CMG,1.5,Consumer Discretionary
+110,ORLY,1.5,Consumer Discretionary
+111,WMT,1.5,Consumer Staples
+112,COST,1.5,Consumer Staples
+113,PG,1.5,Consumer Staples
+114,KO,1.5,Consumer Staples
+115,PEP,1.5,Consumer Staples
+116,MO,1.5,Consumer Staples
+117,PM,1.5,Consumer Staples
+118,CL,1.5,Consumer Staples
+119,GIS,1.5,Consumer Staples
+120,K,1.5,Consumer Staples
+121,MDLZ,1.5,Consumer Staples
+122,HRL,1.5,Consumer Staples
+123,SJM,1.5,Consumer Staples
+124,CAG,1.5,Consumer Staples
+125,CPB,1.5,Consumer Staples
+126,NEE,1.5,Utilities
+127,DUK,1.5,Utilities
+128,SO,1.5,Utilities
+129,D,1.5,Utilities
+130,AEP,1.5,Utilities
+131,EXC,1.5,Utilities
+132,SRE,1.5,Utilities
+133,PCG,1.5,Utilities
+134,WEC,1.5,Utilities
+135,ES,1.5,Utilities
+136,LIN,1.5,Materials
+137,APD,1.5,Materials
+138,SHW,1.5,Materials
+139,ECL,1.5,Materials
+140,NEM,1.5,Materials
+141,FCX,1.5,Materials
+142,AA,1.5,Materials
+143,NUE,1.5,Materials
+144,VMC,1.5,Materials
+145,MLM,1.5,Materials
+146,AMT,1.5,Real Estate
+147,PLD,1.5,Real Estate
+148,CCI,1.5,Real Estate
+149,EQIX,1.5,Real Estate
+150,SPG,1.5,Real Estate
+151,O,1.5,Real Estate
+152,WELL,1.5,Real Estate
+153,VTR,1.5,Real Estate
+154,DLR,1.5,Real Estate
+155,ARE,1.5,Real Estate
+156,RELIANCE,1.6,India Equities
+157,TCS,1.6,India Equities
+158,HDFCBANK,1.6,India Equities
+159,INFY,1.6,India Equities
+160,ICICIBANK,1.6,India Equities
+161,HINDUNILVR,1.6,India Equities
+162,ITC,1.6,India Equities
+163,SBIN,1.6,India Equities
+164,BHARTIARTL,1.6,India Equities
+165,BAJFINANCE,1.6,India Equities
+166,KOTAKBANK,1.6,India Equities
+167,LT,1.6,India Equities
+168,AXISBANK,1.6,India Equities
+169,ASIANPAINT,1.6,India Equities
+170,MARUTI,1.6,India Equities
+171,WIPRO,1.6,India Equities
+172,HCLTECH,1.6,India Equities
+173,ULTRACEMCO,1.6,India Equities
+174,TITAN,1.6,India Equities
+175,SUNPHARMA,1.6,India Equities
+176,NESTLEIND,1.6,India Equities
+177,POWERGRID,1.6,India Equities
+178,NTPC,1.6,India Equities
+179,ONGC,1.6,India Equities
+180,BPCL,1.6,India Equities
+181,TATAMOTORS,1.6,India Equities
+182,TATASTEEL,1.6,India Equities
+183,JSWSTEEL,1.6,India Equities
+184,ADANIPORTS,1.6,India Equities
+185,CIPLA,1.6,India Equities
+186,DRREDDY,1.6,India Equities
+187,DIVISLAB,1.6,India Equities
+188,BAJAJFINSV,1.6,India Equities
+189,EICHERMOT,1.6,India Equities
+190,HEROMOTOCO,1.6,India Equities
+191,M&M,1.6,India Equities
+192,GRASIM,1.6,India Equities
+193,SHREECEM,1.6,India Equities
+194,TECHM,1.6,India Equities
+195,INDUSINDBK,1.6,India Equities
+196,FEDERALBNK,1.6,India Equities
+197,BANDHANBNK,1.6,India Equities
+198,IDFCFIRSTB,1.6,India Equities
+199,PNB,1.6,India Equities
+200,CANBK,1.6,India Equities
+201,UNIONBANK,1.6,India Equities
+202,HINDALCO,1.6,India Equities
+203,VEDL,1.6,India Equities
+204,COALINDIA,1.6,India Equities
+205,NMDC,1.6,India Equities
+206,PIDILITIND,1.6,India Equities
+207,BERGEPAINT,1.6,India Equities
+208,DABUR,1.6,India Equities
+209,MARICO,1.6,India Equities
+210,GODREJCP,1.6,India Equities
+211,COLPAL,1.6,India Equities
+212,BRITANNIA,1.6,India Equities
+213,TATACONSUM,1.6,India Equities
+214,MCDOWELL-N,1.6,India Equities
+215,JUBLFOOD,1.6,India Equities
+216,DMART,1.6,India Equities
+217,ZOMATO,1.6,India Equities
+218,NYKAA,1.6,India Equities
+219,PAYTM,1.6,India Equities
+220,POLICYBZR,1.6,India Equities
+221,INDIAMART,1.6,India Equities
+222,IRCTC,1.6,India Equities
+223,HAL.NS,1.6,India Equities (Hindustan Aeronautics)
+224,BEL,1.6,India Equities
+225,LICI,1.6,India Equities
+226,SBILIFE,1.6,India Equities
+227,HDFCLIFE,1.6,India Equities
+228,ICICIPRULI,1.6,India Equities
+229,CHOLAFIN,1.6,India Equities
+230,MUTHOOTFIN,1.6,India Equities
+231,MANAPPURAM,1.6,India Equities
+232,RECLTD,1.6,India Equities
+233,PFC,1.6,India Equities
+234,IRFC,1.6,India Equities
+235,SBICARD,1.6,India Equities
+236,ABCAPITAL,1.6,India Equities
+237,MFSL,1.6,India Equities
+238,CONCOR,1.6,India Equities
+239,CESC,1.6,India Equities
+240,TORNTPOWER,1.6,India Equities
+241,TATAPOWER,1.6,India Equities
+242,ADANIGREEN,1.6,India Equities
+243,ADANIENT,1.6,India Equities
+244,APOLLOHOSP,1.6,India Equities
+245,FORTIS,1.6,India Equities
+246,MAXHEALTH,1.6,India Equities
+247,METROPOLIS,1.6,India Equities
+248,LALPATHLAB,1.6,India Equities
+249,RELAXO,1.6,India Equities
+250,AAVAS,1.6,India Equities
+251,HOMEFIRST,1.6,India Equities
+252,KFINTECH,1.6,India Equities
+253,CAMS,1.6,India Equities
+254,CDSL,1.6,India Equities
+255,BSE,1.6,India Equities
+256,MCX,1.6,India Equities
+257,SPY,1.7,ETFs - Broad Market
+258,QQQ,1.7,ETFs - Broad Market
+259,IWM,1.7,ETFs - Broad Market
+260,DIA,1.7,ETFs - Broad Market
+261,VTI,1.7,ETFs - Broad Market
+262,XLK,1.7,ETFs - Sector
+263,XLF,1.7,ETFs - Sector
+264,XLE,1.7,ETFs - Sector
+265,XLV,1.7,ETFs - Sector
+266,XLI,1.7,ETFs - Sector
+267,XLP,1.7,ETFs - Sector
+268,XLY,1.7,ETFs - Sector
+269,XLU,1.7,ETFs - Sector
+270,XLB,1.7,ETFs - Sector
+271,XLRE,1.7,ETFs - Sector
+272,XLC,1.7,ETFs - Sector
+273,ARKK,1.7,ETFs - Thematic
+274,ARKF,1.7,ETFs - Thematic
+275,ARKG,1.7,ETFs - Thematic
+276,SMH,1.7,ETFs - Thematic
+277,SOXX,1.7,ETFs - Thematic
+278,IBB,1.7,ETFs - Thematic
+279,KRE,1.7,ETFs - Thematic
+280,KBE,1.7,ETFs - Thematic
+281,INDA,1.7,ETFs - Country
+282,EWJ,1.7,ETFs - Country
+283,FXI,1.7,ETFs - Country
+284,EWZ,1.7,ETFs - Country
+285,EWG,1.7,ETFs - Country
+286,EEM,1.7,ETFs - Country
+287,VWO,1.7,ETFs - Country
+288,EFA,1.7,ETFs - International
+289,MTUM,1.7,ETFs - Factor
+290,VLUE,1.7,ETFs - Factor
+291,USMV,1.7,ETFs - Factor
+292,QUAL,1.7,ETFs - Factor
+293,SIZE,1.7,ETFs - Factor
+294,SPHB,1.7,ETFs - Factor
+295,SPLV,1.7,ETFs - Factor
+296,DGRO,1.7,ETFs - Factor
+297,TLT,1.8,Macro - Bonds
+298,IEF,1.8,Macro - Bonds
+299,SHY,1.8,Macro - Bonds
+300,BND,1.8,Macro - Bonds
+301,AGG,1.8,Macro - Bonds
+302,LQD,1.8,Macro - Bonds
+303,HYG,1.8,Macro - Bonds
+304,JNK,1.8,Macro - Bonds
+305,BKLN,1.8,Macro - Bonds
+306,EMB,1.8,Macro - Bonds
+307,MUB,1.8,Macro - Bonds
+308,TIPS,1.8,Macro - Bonds
+309,GLD,1.8,Macro - Commodities
+310,SLV,1.8,Macro - Commodities
+311,GDX,1.8,Macro - Commodities
+312,USO,1.8,Macro - Commodities
+313,BNO,1.8,Macro - Commodities
+314,UNG,1.8,Macro - Commodities
+315,PDBC,1.8,Macro - Commodities
+316,DBA,1.8,Macro - Commodities
+317,CPER,1.8,Macro - Commodities
+318,PALL,1.8,Macro - Commodities
+319,PPLT,1.8,Macro - Commodities
+320,^VIX,1.8,Macro - Volatility
+321,^VVIX,1.8,Macro - Volatility
+322,VIXY,1.8,Macro - Volatility
+323,SVXY,1.8,Macro - Volatility
+324,^TNX,1.8,Macro - Rates
+325,^IRX,1.8,Macro - Rates
+326,^FVX,1.8,Macro - Rates
+327,DXY,1.8,Macro - FX
+328,UUP,1.8,Macro - FX
+329,FXE,1.8,Macro - FX
+330,FXY,1.8,Macro - FX
+331,FXB,1.8,Macro - FX
+332,USDINR,1.8,Macro - FX
+333,BTC-USD,1.8,Macro - Crypto
+334,ETH-USD,1.8,Macro - Crypto
+335,SNOW,1.1,US Mega Cap Tech
+336,NET,1.1,US Mega Cap Tech
+337,DDOG,1.1,US Mega Cap Tech
+338,MU,1.1,US Mega Cap Tech
+339,MRVL,1.1,US Mega Cap Tech
+340,ARM,1.1,US Mega Cap Tech
+341,PLTR,1.1,US Mega Cap Tech
+342,FTNT,1.1,US Mega Cap Tech
+343,ZS,1.1,US Mega Cap Tech
+344,CRWD,1.1,US Mega Cap Tech
+345,OKTA,1.1,US Mega Cap Tech
+346,ZM,1.1,US Mega Cap Tech
+347,BILL,1.1,US Mega Cap Tech
+348,HUBS,1.1,US Mega Cap Tech
+349,WDAY,1.1,US Mega Cap Tech
+350,TTD,1.1,US Mega Cap Tech
+351,RBLX,1.1,US Mega Cap Tech
+352,COIN,1.1,US Mega Cap Tech
+353,MSTR,1.1,US Mega Cap Tech
+354,APP,1.1,US Mega Cap Tech
+355,SMCI,1.1,US Mega Cap Tech
+356,DELL,1.1,US Mega Cap Tech
+357,HPQ,1.1,US Mega Cap Tech
+358,HPE,1.1,US Mega Cap Tech
+359,NFLX,1.1,US Mega Cap Tech
+360,SPOT,1.1,US Mega Cap Tech
+361,PYPL,1.1,US Mega Cap Tech
+362,TFC,1.2,US Financials
+363,KEY,1.2,US Financials
+364,RF,1.2,US Financials
+365,FITB,1.2,US Financials
+366,HBAN,1.2,US Financials
+367,STT,1.2,US Financials
+368,BK,1.2,US Financials
+369,MTB,1.2,US Financials
+370,CFG,1.2,US Financials
+371,ALLY,1.2,US Financials
+372,DFS,1.2,US Financials
+373,SYF,1.2,US Financials
+374,NDAQ,1.2,US Financials
+375,MCO,1.2,US Financials
+376,MSCI,1.2,US Financials
+377,TROW,1.2,US Financials
+378,WTW,1.2,US Financials
+379,MMC,1.2,US Financials
+380,RJF,1.2,US Financials
+381,LNC,1.2,US Financials
+382,GL,1.2,US Financials
+383,ZTS,1.3,US Healthcare
+384,BSX,1.3,US Healthcare
+385,IQV,1.3,US Healthcare
+386,HCA,1.3,US Healthcare
+387,MOH,1.3,US Healthcare
+388,ELV,1.3,US Healthcare
+389,BDX,1.3,US Healthcare
+390,DXCM,1.3,US Healthcare
+391,RMD,1.3,US Healthcare
+392,IDXX,1.3,US Healthcare
+393,ALGN,1.3,US Healthcare
+394,HOLX,1.3,US Healthcare
+395,GEHC,1.3,US Healthcare
+396,PODD,1.3,US Healthcare
+397,INSP,1.3,US Healthcare
+398,EW,1.3,US Healthcare
+399,MRNA,1.3,US Healthcare
+400,BNTX,1.3,US Healthcare
+401,NVAX,1.3,US Healthcare
+402,IONS,1.3,US Healthcare
+403,BKR,1.4,US Energy
+404,HES,1.4,US Energy
+405,MRO,1.4,US Energy
+406,APA,1.4,US Energy
+407,CTRA,1.4,US Energy
+408,NOV,1.4,US Energy
+409,RRC,1.4,US Energy
+410,AR,1.4,US Energy
+411,EQT,1.4,US Energy
+412,SM,1.4,US Energy
+413,F,1.5,Consumer Discretionary
+414,GM,1.5,Consumer Discretionary
+415,ABNB,1.5,Consumer Discretionary
+416,LYFT,1.5,Consumer Discretionary
+417,UBER,1.5,Consumer Discretionary
+418,DASH,1.5,Consumer Discretionary
+419,ETSY,1.5,Consumer Discretionary
+420,EBAY,1.5,Consumer Discretionary
+421,LVS,1.5,Consumer Discretionary
+422,MGM,1.5,Consumer Discretionary
+423,WYNN,1.5,Consumer Discretionary
+424,RCL,1.5,Consumer Discretionary
+425,CCL,1.5,Consumer Discretionary
+426,AAL,1.5,Consumer Discretionary
+427,DAL,1.5,Consumer Discretionary
+428,UAL,1.5,Consumer Discretionary
+429,LUV,1.5,Consumer Discretionary
+430,TSCO,1.5,Consumer Discretionary
+431,FIVE,1.5,Consumer Discretionary
+432,DKNG,1.5,Consumer Discretionary
+433,EL,1.5,Consumer Staples
+434,CHD,1.5,Consumer Staples
+435,CLX,1.5,Consumer Staples
+436,STZ,1.5,Consumer Staples
+437,TAP,1.5,Consumer Staples
+438,KHC,1.5,Consumer Staples
+439,MNST,1.5,Consumer Staples
+440,TSN,1.5,Consumer Staples
+441,MKC,1.5,Consumer Staples
+442,SYY,1.5,Consumer Staples
+443,GD,1.5,Industrials
+444,WM,1.5,Industrials
+445,RSG,1.5,Industrials
+446,CARR,1.5,Industrials
+447,OTIS,1.5,Industrials
+448,IR,1.5,Industrials
+449,AME,1.5,Industrials
+450,XYL,1.5,Industrials
+451,VRSK,1.5,Industrials
+452,HUBB,1.5,Industrials
+453,ROP,1.5,Industrials
+454,LDOS,1.5,Industrials
+455,SAIC,1.5,Industrials
+456,AXON,1.5,Industrials
+457,GEV,1.5,Industrials
+458,PPG,1.5,Materials
+459,DD,1.5,Materials
+460,IFF,1.5,Materials
+461,MOS,1.5,Materials
+462,CF,1.5,Materials
+463,ALB,1.5,Materials
+464,MP,1.5,Materials
+465,BALL,1.5,Materials
+466,PKG,1.5,Materials
+467,IP,1.5,Materials
+468,PSA,1.5,Real Estate
+469,EXR,1.5,Real Estate
+470,VICI,1.5,Real Estate
+471,WPC,1.5,Real Estate
+472,NNN,1.5,Real Estate
+473,MAA,1.5,Real Estate
+474,CPT,1.5,Real Estate
+475,EQR,1.5,Real Estate
+476,AVB,1.5,Real Estate
+477,ESS,1.5,Real Estate
+478,AWK,1.5,Utilities
+479,AES,1.5,Utilities
+480,ETR,1.5,Utilities
+481,FE,1.5,Utilities
+482,PPL,1.5,Utilities
+483,CMS,1.5,Utilities
+484,NI,1.5,Utilities
+485,PNW,1.5,Utilities
+486,EVRG,1.5,Utilities
+487,ATO,1.5,Utilities
+488,BAJAJ-AUTO,1.6,India Equities
+489,TRENT,1.6,India Equities
+490,HAVELLS,1.6,India Equities
+491,VOLTAS,1.6,India Equities
+492,DIXON,1.6,India Equities
+493,HINDPETRO,1.6,India Equities
+494,IOC,1.6,India Equities
+495,GAIL,1.6,India Equities
+496,PETRONET,1.6,India Equities
+497,PIIND,1.6,India Equities
+498,UPL,1.6,India Equities
+499,COFORGE,1.6,India Equities
+500,MPHASIS,1.6,India Equities
+501,LTTS,1.6,India Equities
+502,PERSISTENT,1.6,India Equities
+503,KPIT,1.6,India Equities
+504,TATAELXSI,1.6,India Equities
+505,VARUNBEV,1.6,India Equities
+506,ATUL,1.6,India Equities
+507,DEEPAKNI,1.6,India Equities
+508,APOLLOTYRE,1.6,India Equities
+509,MRF,1.6,India Equities
+510,BALKRISIND,1.6,India Equities
+511,CEATLTD,1.6,India Equities
+512,MOTHERSON,1.6,India Equities
+513,BHARATFORG,1.6,India Equities
+514,BOSCHLTD,1.6,India Equities
+515,THERMAX,1.6,India Equities
+516,CUMMINSIND,1.6,India Equities
+517,BHEL,1.6,India Equities
+518,TIINDIA,1.6,India Equities
+519,KAYNES,1.6,India Equities
+520,PNBHOUSING,1.6,India Equities
+521,LICHSGFIN,1.6,India Equities
+522,CANFINHOME,1.6,India Equities
+523,APTUS,1.6,India Equities
+524,KARURVYSYA,1.6,India Equities
+525,CITYUNIONB,1.6,India Equities
+526,DCBBANK,1.6,India Equities
+527,JKCEMENT,1.6,India Equities
+528,BIRLACORPN,1.6,India Equities
+529,RAMCOCEM,1.6,India Equities
+530,DALBHARAT,1.6,India Equities
+531,NAZARA,1.6,India Equities
+532,RAILTEL,1.6,India Equities
+533,SUZLON,1.6,India Equities
+534,NHPC,1.6,India Equities
+535,SJVN,1.6,India Equities
+536,TORNTPHARM,1.6,India Equities
+537,ALKEM,1.6,India Equities
+538,IPCALAB,1.6,India Equities
+539,GLAND,1.6,India Equities
+540,GRANULES,1.6,India Equities
+541,AUROPHARMA,1.6,India Equities
+542,LUPIN,1.6,India Equities
+543,ZYDUSLIFE,1.6,India Equities
+544,ABBOTINDIA,1.6,India Equities
+545,PFIZER,1.6,India Equities
+546,GLAXO,1.6,India Equities
+547,CENTURYPLY,1.6,India Equities
+548,BATAINDIA,1.6,India Equities
+549,MANYAVAR,1.6,India Equities
+550,HFCL,1.6,India Equities
+551,STLTECH,1.6,India Equities
+552,AIAENG,1.6,India Equities
+553,SUNDRMFAST,1.6,India Equities
+554,KEC,1.6,India Equities
+555,KALPATPOWR,1.6,India Equities
+556,TATACOMM,1.6,India Equities
+557,SCHD,1.7,ETFs - Broad Market
+558,VIG,1.7,ETFs - Broad Market
+559,VYM,1.7,ETFs - Broad Market
+560,RSP,1.7,ETFs - Factor
+561,COWZ,1.7,ETFs - Factor
+562,MOAT,1.7,ETFs - Factor
+563,BOTZ,1.7,ETFs - Thematic
+564,ROBO,1.7,ETFs - Thematic
+565,HACK,1.7,ETFs - Thematic
+566,CIBR,1.7,ETFs - Thematic
+567,LIT,1.7,ETFs - Thematic
+568,AIQ,1.7,ETFs - Thematic
+569,WCLD,1.7,ETFs - Thematic
+570,SKYY,1.7,ETFs - Thematic
+571,CLOU,1.7,ETFs - Thematic
+572,EWI,1.7,ETFs - Country
+573,EWU,1.7,ETFs - Country
+574,EWC,1.7,ETFs - Country
+575,EWA,1.7,ETFs - Country
+576,EWS,1.7,ETFs - Country
+577,MCHI,1.7,ETFs - Country
+578,KWEB,1.7,ETFs - Country
+579,NFTY,1.7,ETFs - Country
+580,IBIT,1.8,Macro - Crypto
+581,SOL-USD,1.8,Macro - Crypto
+582,XRP-USD,1.8,Macro - Crypto
+583,JO,1.8,Macro - Commodities
+584,CORN,1.8,Macro - Commodities
+585,WEAT,1.8,Macro - Commodities
+586,SOYB,1.8,Macro - Commodities
+587,CANE,1.8,Macro - Commodities
+588,KOLD,1.8,Macro - Commodities
+589,^TYX,1.8,Macro - Rates
+590,^MOVE,1.8,Macro - Rates
+591,FXF,1.8,Macro - FX
+592,FXA,1.8,Macro - FX
+593,FXC,1.8,Macro - FX
+594,UVXY,1.8,Macro - Volatility
+595,VXX,1.8,Macro - Volatility
+596,TSMC,1.1,US Mega Cap Tech
+597,ASML,1.1,US Mega Cap Tech
+598,SAP,1.1,US Mega Cap Tech
+599,SQ,1.1,US Mega Cap Tech
+600,ANET,1.1,US Mega Cap Tech
+
