@@ -1,0 +1,10 @@
+metric,value
+gross_annual_return,0.16682200197818617
+net_annual_return,0.14882200197818615
+gross_sharpe,0.7607246513384812
+net_sharpe,0.6786428901695726
+max_drawdown,-0.23351383202808673
+gross_win_rate,0.6346153846153846
+net_win_rate,0.6346153846153846
+average_transaction_cost,0.0015
+total_cost_paid,0.078
