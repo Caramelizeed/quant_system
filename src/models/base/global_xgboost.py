@@ -21,7 +21,7 @@ from loguru import logger
 PROJECT_ROOT = Path(__file__).resolve().parents[3]
 
 PANEL_DIR = (
-    PROJECT_ROOT / "data/panel"
+    PROJECT_ROOT / "data/panel/ranked"
 )
 
 CHECKPOINT_DIR = (
@@ -63,11 +63,11 @@ logger.info(
 )
 
 train_df = pd.read_parquet(
-    PANEL_DIR / "train_panel.parquet"
+    PANEL_DIR / "train_ranked.parquet"
 )
 
 validation_df = pd.read_parquet(
-    PANEL_DIR / "validation_panel.parquet"
+    PANEL_DIR / "validation_ranked.parquet"
 )
 
 # =========================================================
@@ -88,7 +88,13 @@ EXCLUDED_COLUMNS = [
 
     "source",
 
-    "triple_barrier_label"
+    "future_close",
+    "future_return_21d",
+    "future_return_rank",
+
+    "triple_barrier_label",
+
+    "cross_sectional_rank_label"
 ]
 
 FEATURE_COLUMNS = [
@@ -111,7 +117,7 @@ X_train = train_df[
 ]
 
 y_train = train_df[
-    "triple_barrier_label"
+    "cross_sectional_rank_label"
 ]
 
 X_validation = validation_df[
@@ -119,7 +125,7 @@ X_validation = validation_df[
 ]
 
 y_validation = validation_df[
-    "triple_barrier_label"
+    "cross_sectional_rank_label"
 ]
 
 # =========================================================
