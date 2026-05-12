@@ -1,0 +1,8 @@
+feature
+daily_range
+volatility_21d
+close
+momentum_252d
+dist_sma_200
+momentum_63d
+return_5d

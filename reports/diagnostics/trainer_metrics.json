@@ -1,0 +1,12 @@
+{
+    "accuracy": 0.40801405696771126,
+    "log_loss": 1.1159383636595672,
+    "features": [
+        "daily_range",
+        "dist_sma_200",
+        "momentum_252d",
+        "momentum_63d",
+        "volatility_21d"
+    ],
+    "num_features": 5
+}
