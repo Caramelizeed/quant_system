@@ -1,0 +1,9 @@
+metric,value
+annualized_return,0.08341100098909308
+annualized_volatility,0.10964677014519372
+sharpe_ratio,0.7607246513384812
+max_drawdown,-0.11643303922619896
+win_rate,0.6346153846153846
+average_leverage,0.5
+max_leverage,0.5
+min_leverage,0.5
