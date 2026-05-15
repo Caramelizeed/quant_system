@@ -1,0 +1,17 @@
+{
+    "ensemble_accuracy": 0.5979733657453892,
+    "ensemble_log_loss": 0.9188700286960845,
+    "features": [
+        "volatility_21d",
+        "daily_range",
+        "momentum_252d",
+        "dist_sma_200",
+        "momentum_63d"
+    ],
+    "weights": {
+        "xgboost": 0.2813801294188594,
+        "random_forest": 0.28297432413784984,
+        "extra_trees": 0.2816007291864008,
+        "ridge": 0.15404481725689
+    }
+}
