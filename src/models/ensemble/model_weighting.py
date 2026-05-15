@@ -12,8 +12,6 @@ from sklearn.ensemble import (
     ExtraTreesClassifier
 )
 
-from sklearn.linear_model import RidgeClassifier
-
 from sklearn.metrics import (
     accuracy_score,
     log_loss,
@@ -23,6 +21,8 @@ from sklearn.metrics import (
 from scipy.special import softmax
 
 from loguru import logger
+
+import joblib
 
 # =========================================================
 # PROJECT PATHS
@@ -138,7 +138,7 @@ logger.info(
 )
 
 # =========================================================
-# TARGET
+# TARGET PROCESSING
 # =========================================================
 
 TARGET_COLUMN = (
@@ -156,7 +156,7 @@ validation_df[TARGET_COLUMN] = (
 )
 
 # =========================================================
-# MATRICES
+# FEATURE MATRICES
 # =========================================================
 
 logger.info(
@@ -180,7 +180,7 @@ y_valid = validation_df[
 ].copy()
 
 # =========================================================
-# CLEANING
+# CLEAN MATRICES
 # =========================================================
 
 logger.info(
@@ -264,10 +264,6 @@ models = {
         random_state=42,
 
         n_jobs=-1
-    ),
-
-    "ridge": RidgeClassifier(
-        alpha=1.0
     )
 }
 
@@ -295,7 +291,7 @@ logger.success(
 )
 
 # =========================================================
-# GENERATE PREDICTIONS
+# GENERATE PROBABILITIES
 # =========================================================
 
 logger.info(
@@ -312,30 +308,9 @@ for name, model in models.items():
         f"Inference -> {name}"
     )
 
-    if hasattr(
-        model,
-        "predict_proba"
-    ):
-
-        probs = model.predict_proba(
-            X_valid
-        )
-
-    else:
-
-        pred = model.predict(
-            X_valid
-        )
-
-        probs = np.zeros(
-            (len(pred), 3)
-        )
-
-        for i in range(3):
-
-            probs[:, i] = (
-                pred == i
-            ).astype(float)
+    probs = model.predict_proba(
+        X_valid
+    )
 
     model_probabilities[
         name
@@ -376,14 +351,13 @@ metrics_df = pd.DataFrame(
 )
 
 # =========================================================
-# COMPUTE MODEL WEIGHTS
+# COMPUTE ADAPTIVE WEIGHTS
 # =========================================================
 
 logger.info(
     "Computing adaptive weights"
 )
 
-# Use Sharpe-like score
 scores = metrics_df[
     "sharpe_proxy"
 ].values
@@ -402,7 +376,7 @@ logger.info(
 )
 
 # =========================================================
-# WEIGHTED ENSEMBLE
+# BUILD WEIGHTED ENSEMBLE
 # =========================================================
 
 logger.info(
@@ -426,6 +400,22 @@ for i, (
     ensemble_probs += (
         probs * weight
     )
+
+# =========================================================
+# NORMALIZE PROBABILITIES
+# =========================================================
+
+ensemble_probs = (
+
+    ensemble_probs
+
+    /
+
+    ensemble_probs.sum(
+        axis=1,
+        keepdims=True
+    )
+)
 
 ensemble_predictions = np.argmax(
 
@@ -538,7 +528,7 @@ importance_df.reset_index(
 )
 
 # =========================================================
-# REPORTING
+# FINAL REPORTING
 # =========================================================
 
 logger.info("====================================")
@@ -573,12 +563,38 @@ logger.info(
 logger.info("====================================")
 
 # =========================================================
-# SAVE OUTPUTS
+# SAVE MODELS
 # =========================================================
 
 logger.info(
-    "Saving weighted ensemble outputs"
+    "Saving ensemble artifacts"
 )
+
+models["xgboost"].save_model(
+
+    CHECKPOINT_DIR
+    / "weighted_xgboost.json"
+)
+
+joblib.dump(
+
+    models["random_forest"],
+
+    CHECKPOINT_DIR
+    / "weighted_random_forest.pkl"
+)
+
+joblib.dump(
+
+    models["extra_trees"],
+
+    CHECKPOINT_DIR
+    / "weighted_extra_trees.pkl"
+)
+
+# =========================================================
+# SAVE REPORTS
+# =========================================================
 
 metrics_df.to_csv(
 
