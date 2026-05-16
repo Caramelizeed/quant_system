@@ -1,0 +1,4 @@
+,gross_leverage,max_position_weight,max_positions,trade_enabled
+2,1.25,0.1,25,True
+1,0.25,0.03,5,False
+0,0.75,0.05,15,True
