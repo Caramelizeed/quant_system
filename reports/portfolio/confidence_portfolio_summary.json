@@ -1,0 +1,9 @@
+{
+    "mean_portfolio_return": 0.050062569700754705,
+    "portfolio_volatility": 0.10022126560807192,
+    "portfolio_sharpe": 0.49952043009046393,
+    "max_drawdown": -0.8453019051670885,
+    "gross_leverage": 0.9999999999988848,
+    "positive_period_rate": 0.669683257918552,
+    "approved_trades": 8014
+}
